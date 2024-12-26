@@ -1,0 +1,707 @@
+.ff-el-progress-status {
+    display: none;
+  }
+  
+  .fluentform .ff-el-progress-bar {
+    background: #E60064 !important;
+  }
+  
+  .fluentform-step {
+    float: left;
+    height: 1px;
+    overflow-x: hidden;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  
+  .hHsoVZ,
+  h2.sc-gPzReC.ezIJZF {
+    font: 700 1.75rem / 2.25rem Ubuntu;
+    text-decoration: none;
+  }
+  
+  .vff input[type=text] {
+    font-size: 14px !important;
+  
+  }
+  
+  .hMCwOD .ff-el-input--content {
+    position: relative;
+    width: 500px;
+  }
+  
+  /* .hMCwOD input{
+    position: relative !important;
+    height: 40px !important;
+    width: 100% !important;
+    border-radius: 4px !important;
+    padding: 0px 40px 0px 40px !important;
+    font-size: 16px !important;
+    outline: none !important;
+    transition-duration: 0.2s !important;
+    background-color: rgb(255, 255, 255) !important;
+    color: rgb(43, 43, 43) !important;
+    border: 1px solid rgb(146, 146, 146) !important;
+  } */
+  
+  
+  .fltNuX {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    padding-left: 12px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  
+  .hCkRUj {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .hCkRUj svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  body,
+  input,
+  button,
+  select,
+  textarea {
+    font-family: "Ubuntu", "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .dETsNo:disabled {
+    background: rgb(245, 178, 194);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: default;
+  }
+  
+  .dETsNo {
+    position: relative;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    box-sizing: border-box;
+    border: none transparent;
+    outline: none;
+    overflow: hidden;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    text-decoration: none;
+    background: #E60064 !important;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    border-radius: 32px;
+    font-size: 16px;
+    font-weight: 600;
+    min-width: 100px;
+    padding: 0px 24px;
+  }
+  
+  .fluentform .ff-float-right {
+    float: left !important;
+  }
+  
+  
+  
+  
+  
+  .autocomplete-items {
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    width: 500px;
+    padding: 0;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+    border-bottom: 1px solid #d4d4d4;
+  }
+  
+  /*when hovering an item:*/
+  .autocomplete-items div:hover {
+    background-color: #e9e9e9;
+  }
+  
+  /*when navigating through the items using the arrow keys:*/
+  .autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+  }
+  
+  
+  .ff-default .ff-el-form-control {
+    padding: 17px 30px;
+  }
+  
+  /* Remove arrows in Chrome, Safari, Edge, and Opera */
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Remove arrows in Firefox */
+  input[type="number"] {
+    -moz-appearance: textfield;
+  }
+  
+  
+  div[data-name="form_step-7_5"] .ff-el-input--content {
+    position: relative;
+    width: 400px;
+    max-width: 100%;
+  }
+  
+  div[data-name="form_step-7_5"] input {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .dKpvRB {
+    position: absolute;
+    right: 8px;
+    top: 0px;
+    font-weight: 700;
+    font-size: 15px;
+    bottom: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+  }
+  
+  div[data-name='form_step-7_9'] .ff-el-input--content {
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 40px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(146, 146, 146);
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .cLRlKp {
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid rgb(248, 248, 248);
+    background-color: rgb(248, 248, 248);
+    cursor: not-allowed;
+  }
+  
+  .fHnejo {
+    display: flex;
+    position: relative;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    padding: 0px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(234, 234, 234);
+  }
+  
+  
+  div[data-name='form_step-7_9'] input {
+    flex: 1 1 0% !important;
+    width: 100% !important;
+  
+    text-align: center !important;
+    padding: 4px 0px !important;
+    margin: 0px !important;
+    border: none !important;
+    background-color: transparent !important;
+    outline: none !important;
+    font-size: 16px !important;
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif !important;
+    color: rgb(43, 43, 43) !important;
+  }
+  
+  button[data-action="prev"] {
+    background-color: transparent !important;
+    font-weight: 500;
+    color: #e60064 !important;
+    border: none;
+    font-size: 12px;
+  }
+  
+  
+  button[data-action="prev"]:hover {
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  button[data-action="prev"]::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f060";
+    padding: 0 10px 0 0;
+  }
+  
+  
+  
+  /*-----------------------------------------------------------------------*/
+  .imINFU .ff-el-input--content {
+    display: flex !important;
+    justify-content: center;
+  }
+  
+  /* .imINFU label {
+    margin-right: 8px;
+    height: 82px !important;
+    width: 213px !important;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid rgb(212, 212, 212);
+    border-radius: 16px;
+    cursor: pointer !important;
+    user-select: none;
+    transition: border-color 0.15s ease 0s;
+  } */
+  
+  .imINFU label {
+    min-width: 9.5rem;
+    flex: 1 1 0px;
+    border-color: rgb(174, 174, 174);
+    cursor: pointer;
+    display: inline-flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    padding: calc(1.4375rem) calc(0.9375rem);
+    background-color: rgb(255, 255, 255);
+    border-width: 0.0625rem;
+    border-style: solid;
+    border-radius: 1rem;
+    outline: -webkit-focus-ring-color none 0.125rem;
+    outline-offset: -0.125rem;
+    margin: 0.5rem;
+    min-width: 10rem;
+    text-align: center;
+  }
+  
+  .imINFU label input {
+    position: absolute !important;
+    pointer-events: none;
+    opacity: 0.5;
+    top: 12px !important;
+    right: 12px;
+    transition: opacity 0.15s ease 0s, background-color 0.15s ease 0s;
+  
+  }
+  
+  .imINFU .ff_item_selected label {
+    background-color: white;
+    border: 2px solid #1A6FDA;
+    color: #1A6FDA;
+    fill: #1A6FDA;
+    cursor: pointer;
+    user-select: none;
+    transition: border-color 0.15s ease 0s;
+  
+  }
+  
+  
+  
+  .imINFU label span {
+    order: 2;
+    text-align: center;
+    font: 700 1rem / 1.5rem Inter;
+    text-decoration: none;
+    color: rgb(50, 50, 50);
+  }
+  
+  .imINFU label img {
+    order: 1;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 60px;
+    height: 60px;
+  }
+  
+  
+  div[data-name='form_step-7_9'] .ff-el-input--content {
+    max-width: 218px;
+  }
+  
+  
+  .knPFjE {
+    padding: 8px;
+    border-radius: 8px;
+    display: inline-block;
+    background: rgb(253, 242, 228);
+    font-size: 1rem;
+    margin-top: 8px;
+    width: 540px;
+  }
+  
+  
+  .ff-el-group.ff-custom_html.has-conditions.knPFjE.ff_cond_v p {
+    font-size: 400 -8.25rem / -21.75rem Inter;
+    font: 400 12px / 16px Ubuntu;
+  }
+  
+  .dOIZvA .ff-el-input--content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(218px, 1fr));
+    gap: 16px;
+    max-width: 686px;
+  }
+  
+  .dOIZvA label {
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    transition: all 0.2s ease 0s;
+    border-style: solid;
+    border-radius: 4px;
+    border-width: 1px;
+    border-color: rgb(146, 146, 146);
+    cursor: pointer;
+    padding: 15px 16px;
+    min-width: 100px;
+  }
+  
+  .dOIZvA span {
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 4px;
+    cursor: pointer;
+    color: rgb(43, 43, 43);
+    font-family: Inter;
+  }
+  
+  .dOIZvAA .ff-el-input--content {
+    margin-left: 280px;
+  }
+  
+  .error {
+    display: inline-block;
+    margin-top: 4px;
+    color: rgb(197, 42, 42) !important;
+    line-height: 18px;
+  }
+  
+  @media(min-width:991px) {
+    div[data-name='form_step-7_19'] .ff-el-input--content {
+      width: 500px;
+    }
+  
+    div[data-name='form_step-7_19'] .ff-btn-submit {
+      position: relative;
+      display: inline-flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      box-sizing: border-box;
+      border: none transparent;
+      outline: none;
+      overflow: hidden;
+      transition-duration: 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      background: #e60064;
+      color: rgb(255, 255, 255);
+      height: 40px;
+      border-radius: 32px;
+      font-size: 16px;
+      font-weight: 600;
+      min-width: 100px;
+      padding: 0px 24px;
+      width: 500px;
+    }
+  }
+  
+  /*MEDIA ------------------------------------------------*/
+  @media(max-width:767px) {
+  
+    body,
+    input,
+    button,
+    select,
+    textarea {
+      font-family: "Ubuntu", "Roboto", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+    }
+  
+  
+    .fluentform-step {
+      display: block;
+    }
+  
+    .hMCwOD .ff-el-input--content {
+      position: relative;
+      width: 100%;
+    }
+  
+    div[data-name="form_step-7_5"] .ff-el-input--content {
+      width: 100%;
+  
+    }
+  
+    div[data-name="form_step-7_12"] .ff-el-group {
+      width: 100%;
+    }
+  
+    .knPFjE {
+      font-size: 0.6rem;
+      width: 330px;
+    }
+  
+    .imINFU .ff-el-input--content {
+      display: flex !important;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+  
+   
+    .gt_float_switcher .gt-selected .gt-current-lang{
+      padding: 5px;
+    }
+    
+    .gt_float_switcher img{
+      width: 20px !important;
+    }
+    
+    .dOIZvAA .ff-el-input--content {
+      margin-left: 0px;
+    }
+  
+    .autocomplete-items {
+      border: 1px solid #d4d4d4;
+      border-bottom: none;
+      border-top: none;
+      z-index: 99;
+      width: 100%;
+      padding: 0px;
+    }
+  
+    div[data-name='form_step-7_19'] .ff-btn-submit {
+      position: relative;
+      display: inline-flex;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center;
+      box-sizing: border-box;
+      border: none transparent;
+      outline: none;
+      overflow: hidden;
+      transition-duration: 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      background: #e60064;
+      color: rgb(255, 255, 255);
+      height: 40px;
+      border-radius: 32px;
+      font-size: 16px;
+      font-weight: 600;
+      min-width: 100px;
+      padding: 0px 24px;
+      width: 100%;
+    }
+  }
+  
+  
+  
+  input:focus {
+    border: 1px solid #1A6FDA !important;
+  }
+  
+  button:focus {
+    border: 1px solid #1A6FDA !important;
+  }
+  
+  .fluentform input[type=radio] {
+  
+    width: 20px;
+    /* Adjust the width to your preference */
+    height: 20px;
+    /* Adjust the height to your preference */
+    border: 1px solid #ccc;
+    border-radius: 100%;
+    margin-right: 5px;
+    opacity: 1;
+  }
+  
+  input[type="radio"]:checked {
+    accent-color: #1A6FDA !important;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 2px;
+  
+  }
+  
+  .ff-el-group.ff-custom_html p {
+    font: 700 1.75rem / 2.25rem Ubuntu;
+    text-decoration: none;
+  }
+  
+  select:focus {
+    /*background: #FF8B2A !important;*/
+    /*color:black !important;*/
+    border: 1px solid #1A6FDA !important;
+  }
+  
+  select option:hover {
+    background-color: #1A6FDA;
+    color: black;
+  }
+  
+  [type=button]:focus,
+  [type=submit]:focus,
+  button:focus {
+    outline: 5px auto #ff6900 !important;
+  }
+  
+  
+  /*------------------------------------------------------------------------------------------------------------------*/
+  
+  
+  #search {
+    position: relative;
+  }
+  
+  .fluentform .ff-el-input--label{
+    font-family: Inter;
+  }
+  
+  @media(max-wdth:767px) {
+  
+    .step-nav.ff_step_nav_last,
+    .fluentform .ff-step-t-container {
+      justify-content: center
+    }
+  }
+  
+  .step-nav.ff_step_nav_last,
+  .fluentform .ff-step-t-container {
+    border-bottom: 0.0625rem solid rgb(224, 224, 224);
+    position: fixed;
+    bottom: 0;
+      width: -webkit-fill-available;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-evenly;
+    gap: 1.5rem;
+   
+    max-width: 100%;
+    padding: 0px 1rem;
+    height: 64px;
+    z-index: 20;
+    flex-direction: unset;
+    box-shadow: rgb(246, 246, 246) 0px -5px 5px 0px;
+    /* pointer-events: none; */
+  }
+  
+  /* Exclude styles for elements inside div[data-name="form_step-7_19"] */
+  /* div[data-name="form_step-7_19"] .step-nav.ff_step_nav_last,
+  div[data-name="form_step-7_19"] .fluentform .ff-step-t-container, div[data-name="form_step-7_19"] .ff-step-t-container.ff-inner_submit_container.ff-column-container.ff_columns_total_2 {
+      all: unset;
+  } */
+  
+  @media(max-width:767px){
+      div[data-name="form_step-7_3"].fluentform-step{
+          margin-bottom:0px !important;
+      }
+      
+      .imINFU .ff-el-input--content > :last-child {
+      flex-basis: 100%;
+      text-align: center;
+  }
+  
+  
+  }
+  div[data-name="step_start-7_23"] .ff-el-group.ff-text-left.ff_submit_btn_wrapper.ff_submit_btn_wrapper_custom {
+    margin-bottom: 50px;
+  }
+  
+  div#gt_float_wrapper {
+      top: 10% !important;
+      right: 20px !important;
+      left : auto !important;
+      height:100px;
+  }
+  
+  .wHelp-multi.right_bottom.wHelp-everywhere-only {
+    display: none;
+  }
+  
+  .gt_float_switcher .gt-selected .gt-current-lang span.gt-lang-code{
+    display: none;
+  }
+  
+  button.ff-btn.ff-btn-prev.ff-btn-secondary {
+    font-weight: bold;
+  }
+  
+  @media (max-width: 767px) {
+    .elementor-222 .elementor-element.elementor-element-ddaa760 {
+        padding: 0px 0px 30px 0px !important;
+    }
+    
+    div[data-name="form_step-7_19"] .step-nav.ff_step_nav_last, div[data-name="form_step-7_19"] .fluentform .ff-step-t-container{
+      justify-content: flex-start;
+      padding: 0;
+      box-shadow:none !important;
+      
+  }
+  }
+  
+  
+  

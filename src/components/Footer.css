@@ -1,0 +1,180 @@
+.footer {
+    background-image: url('../../public/images//FOOTER.png');
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    font-family: 'Poppins';
+    margin-top: 200px;
+}
+
+.first-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+
+.logo-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.search-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-section input {
+    padding: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    margin: 0 8px;
+    background-color: #D9D9D9;
+    width: 243px;
+}
+
+.search-section button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #0070FF;
+}
+
+.search-section p {
+    font-size: 10px;
+    font-weight: 400;
+    font-family: poppins;
+    line-height: 15px;
+    text-align: right;
+    width: 140px;
+}
+
+.second-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.second-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+ul li a {
+    color: #A6DAFF;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+
+}
+
+
+
+.last-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px;
+    align-items: center;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px
+}
+
+.social-media-icons img {
+    width: 30px;
+}
+
+.last-section a {
+    color: #A6DAFF;
+    text-decoration: none;
+}
+
+.logo-section p {
+    font-size: 14px;
+}
+
+.logo-section img {
+    width: 100px;
+}
+
+@media(max-width:767px) {
+    .logo-section {
+        width: 100%;
+        gap: 0;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    .search-section {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .search-section p {
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .second-section {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .last-section {
+        flex-direction: column;
+        gap: 1px;
+    }
+
+    .search-section button {
+        width: 260px;
+        font-weight: 500;
+    }
+}
+
+
+
+/* Pour les écrans de bureau (desktop) */
+@media (min-width: 768px) {
+    .second-section ul {
+        display: block !important; /* Toujours afficher les listes sur bureau */
+    }
+}
+
+/* Pour les écrans mobiles (mobile) */
+@media (max-width: 767px) {
+    .second-section ul {
+        display: none; /* Masquer les listes par défaut sur mobile */
+    }
+
+    .second-section ul.active {
+        display: block; /* Afficher la liste active lors du basculement */
+    }
+}
