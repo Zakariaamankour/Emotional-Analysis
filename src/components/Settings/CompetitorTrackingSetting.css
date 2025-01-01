@@ -1,0 +1,193 @@
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaText-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    /* Extra Light */
+    font-style: normal;
+}
+
+
+.CompetitorTrackingSetting-title-left {
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+.CompetitorTrackingSetting-title-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container-CompetitorTrackingSetting div {
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.button-container-CompetitorTrackingSetting {
+    width: 100%;
+    padding: 10px 0;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px solid #0070FF;
+
+    gap: 10px;
+    margin: 20px auto 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button-container-CompetitorTrackingSetting {}
+
+.return-button {
+
+    padding: 10px 30px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0B66FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex
+}
+
+.return-button div {
+    color: #0B66FF;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.CompetitorTrackingSetting-title-left-title {
+    color: black;
+    font-size: 32px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.CompetitorTrackingSetting-title-left-text {
+    color: #777777;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    line-height: 18px;
+    word-wrap: break-word;
+}
+
+.CompetitorTrackingSetting-container-title {
+    color: #6E6E73;
+    font-size: 9px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.CompetitorTrackingSetting-container-socialName {
+    color: #242424;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 500;
+    word-wrap: break-word;
+    margin: 5px 0;
+}
+
+.CompetitorTrackingSetting-container-link {
+    color: #0B66FF;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 500;
+    word-wrap: break-word;
+    margin: 5px 0;
+}
+
+.CompetitorTrackingSetting-container-item-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.CompetitorTrackingSetting-container-item-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.CompetitorTrackingSetting-container-live-insights {
+    width: 100%;
+    height: 100%;
+    text-align: right
+}
+
+/* Styles for Live text */
+.CompetitorTrackingSetting-container-live-insights-live-text {
+    color: #0B66FF;
+    font-size: 20px;
+    font-family: 'Eloquia Display', sans-serif;
+    /* Ensure fallback font */
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+/* Styles for Insights text */
+.CompetitorTrackingSetting-container-live-insights-insights-text {
+    color: #242424;
+    font-size: 20px;
+    font-family: 'Eloquia Display', sans-serif;
+    /* Ensure fallback font */
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+
+.CompetitorTrackingSetting-container-up,
+.CompetitorTrackingSetting-container-down {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 70px;
+    justify-content: center;
+}
+
+.CompetitorTrackingSetting-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 35%;
+    margin: 50px auto;
+    padding: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    background: rgba(166, 218, 255, 0.15);
+    position: relative;
+
+}
+
+.fa-edit-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}

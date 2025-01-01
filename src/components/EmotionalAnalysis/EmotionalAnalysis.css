@@ -1,0 +1,75 @@
+.EmotionalAnalysis {
+    text-align: center;
+    margin:300px 0;
+}
+
+.EmotionalAnalysis-title-emotional {
+    color: #FD6767;
+    font-size: 42px;
+    font-family: 'Eloquia Text', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.EmotionalAnalysis-title-space {
+    color: #242424;
+    font-size: 42px;
+    font-family: 'Eloquia Text', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.EmotionalAnalysis-title-analysis {
+    color: #242424;
+    font-size: 42px;
+    font-family: 'Eloquia Text', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+
+.EmotionalAnalysis-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.EmotionalAnalysis-button {
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 200px;
+}
+
+.EmotionalAnalysis-upload-file {
+    background: white;
+    border: 1px #0070FF solid;
+    color: #0070FF;
+}
+
+.EmotionalAnalysis-upload-link {
+    background: #0070FF;
+    border: 1px #0070FF solid;
+    color: white;
+}
+
+.EmotionalAnalysis-description {
+    color: #0B66FF;
+    font-size: 14px;
+    font-family: 'Lato';
+    font-weight: 400;
+    word-wrap: break-word;
+}

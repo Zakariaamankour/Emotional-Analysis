@@ -96,7 +96,7 @@ const Header = () => {
         <div className="header">
             <div className="items">
                 <div className="item">
-                    <a href="#" onClick={toggleMobileMenu}>
+                    <a href="/" onClick={toggleMobileMenu}>
                         <img
                             src="../images/logo.png"
                             className="img-fluid rounded-top logo"

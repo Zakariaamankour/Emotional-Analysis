@@ -113,11 +113,11 @@ ul li a {
 }
 
 .logo-section p {
-    font-size: 14px;
+    font-size: 22px;
 }
 
 .logo-section img {
-    width: 100px;
+    width: 60px;
 }
 
 @media(max-width:767px) {
