@@ -12,6 +12,12 @@ import BioOptimiserStart from './components/BioOptimiser/BioOptimiserStart';
 import BioOptimiser from './components/BioOptimiser/BioOptimiser';
 import TrinityStart from './components/Trinity/TrinityStart';
 import Trinity from './components/Trinity/Trinity';
+import Faqs from './components/Faqs';
+import OurImpact from './components/OurImpact';
+import Blogs from './components/Blogs';
+import Support from './components/Support';
+import OurStory from './components/OurStory';
+import PricingComparaison from './components/Pricing/PricingComparaison';
 
 
 function App() {
@@ -29,6 +35,13 @@ function App() {
           <Route path="/bio-optimiser" element={<BioOptimiser />} />
           <Route path="/trinity-start" element={<TrinityStart />} />
           <Route path="/trinity" element={<Trinity />} />
+          <Route path="/faqs" element={<Faqs />} />
+          <Route path="/our-impact" element={<OurImpact />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/support" element={<Support />} />
+          <Route path="/our-story" element={<OurStory />} />
+          <Route path="/pricing-comparaison" element={<PricingComparaison />} />
+
         </Routes>
 
         <Footer />

@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../public/assets/fonts/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../public/assets/fonts/Typekiln\ -\ EloquiaText-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    /* Extra Light */
+    font-style: normal;
+}
+
+.Faqs-header-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Faqs-header-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 400;
+    line-height: 18px;
+    word-wrap: break-word;
+    width: 54%;
+}
+
+.Faqs-header-right-button-light {
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 114px;
+}
+
+.Faqs-header-right-button-light div {
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Faqs-header-right-button-blue {
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 114px;
+}
+
+.Faqs-header-right-button-blue div {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Faqs-header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.Faqs-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+/* -------------categories */
+/* FAQCategories.css */
+
+
+
+.faq-categories {
+    width: 335px;
+    /* Fixed width for the rectangle */
+
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    overflow: hidden;
+    /* Prevent content overflow */
+    height: 750px;
+    /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    border: 1px rgba(0, 0, 0, 0.20) solid;
+}
+
+.faq-categories h3 {
+    color: #242424;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+/* Scrollable list */
+.faq-list {
+    flex: 1;
+    /* Fills the remaining space */
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+    padding-right: 5px;
+    /* Adds space for the scrollbar */
+}
+
+/* Category section */
+.faq-section {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.faq-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #00A4FF;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    transition: color 0.3s ease;
+}
+
+.faq-title:hover {
+    color: #007bff;
+}
+
+.faq-items {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0 10px;
+    /* Indent items slightly */
+    color: #242424;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.faq-items li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.faq-items li:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+
+/* --------Answers */
+.Faqs-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+}
+
+.Faq-answers {
+    width: 912px;
+    height: 750px;
+    background: white;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    padding: 15px;
+}
+
+.Faq-answers-item {
+    width: 80%;
+    margin: auto;
+}
+
+.Faq-answers-item-title {
+    color: black;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Faq-answers-item-question {
+    color: black;
+    font-size: 14px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Faq-answers-item-answer {
+    color: black;
+    font-size: 12px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Faq-answers-item-answer ul:not(.answers-number) li{
+    list-style-type: disc;
+}

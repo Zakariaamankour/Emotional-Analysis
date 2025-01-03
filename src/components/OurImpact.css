@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../public/assets/fonts/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../public/assets/fonts/Typekiln\ -\ EloquiaText-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    /* Extra Light */
+    font-style: normal;
+}
+
+.OurImpact-header-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.OurImpact-header-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 400;
+    line-height: 18px;
+    word-wrap: break-word;
+    width: 54%;
+}
+
+.OurImpact-header-right-button-light {
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 114px;
+}
+
+.OurImpact-header-right-button-light div {
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.OurImpact-header-right-button-blue {
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 114px;
+}
+
+.OurImpact-header-right-button-blue div {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.OurImpact-header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.OurImpact-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px auto;
+}
+
+
+.OurImpact-main {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.OurImpact-main-right {
+    background: white;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 912px;
+    height: 947px;
+    margin: 30px;
+
+}
+
+.OurImpact {
+    width: 80%;
+    margin: auto;
+}
