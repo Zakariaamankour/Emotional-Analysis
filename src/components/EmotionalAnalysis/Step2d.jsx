@@ -4,7 +4,7 @@ import SpiderChart from "./SpiderChart"
 import LineChart from "./LineChart"
 import { emotionData } from "../Data/emotionData.js"; // Importer les données
 
-const Step2a = () => {
+const Step2d = () => {
 
     const videoRef = useRef(null);
     const targetRefs = useRef([]); // Array of refs for multiple targets
@@ -263,15 +263,26 @@ const Step2a = () => {
                         <div style={{ width: '50%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Uncover strategies for growing your audience.</div>
                     </div>
 
+
+
+                    <div className="" style={{ display:"flex",alignItems:"center",gap:"5px" }}>
+                        <img src="../images/brainblack.png" alt="" width={23} height={21}/>
+                        <div style={{ textAlign: 'center' }}>
+                            <span style={{ color: 'black', fontSize: 12, fontFamily: 'Montserrat', fontWeight: 600, wordWrap: 'break-word' }}>C7</span>
+                            <span style={{ color: 'black', fontSize: 12, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>.AI</span>
+                        </div>
+
+                    </div>
+
                     <div className="step2a-video-container" ref={(el) => targetRefs.current[2] = el} style={{ margin: "30px 0" }}></div>
 
 
                 </div>
-                <div className="step2a-fourth-section-rigth">
+                <div className="step2b-fourth-section-rigth">
 
 
 
-                    <div className="step2a-fourth-section-rigth-left">
+                    <div className="step2b-fourth-section-rigth-left">
                         <div className="step2a-fourth-section-rigth-left-item">
                             <div className="step2a-fourth-section-rigth-left-item-left">
                                 <p className="step2a-fourth-section-rigth-left-item-title">Body Langauge</p>
@@ -284,26 +295,34 @@ const Step2a = () => {
 
                         <div className="step2a-fourth-section-rigth-left-item">
                             <div className="step2a-fourth-section-rigth-left-item-left">
-                                <p className="step2a-fourth-section-rigth-left-item-title">Hand Gestures</p>
+                                <p className="step2a-fourth-section-rigth-left-item-title">Relevance Score</p>
                                 <p className="step2a-fourth-section-rigth-left-item-text">Random</p>
                             </div>
 
+                            <div class="score-bar-container">
+                                <div class="score-bar-background"></div>
+                                <div class="score-bar-fill"></div>
+                            </div>
                             <img src="../images/questionicon.png" alt="" />
                         </div>
 
                         <div className="step2a-fourth-section-rigth-left-item">
                             <div className="step2a-fourth-section-rigth-left-item-left">
-                                <p className="step2a-fourth-section-rigth-left-item-title">Microexpressions</p>
+                                <p className="step2a-fourth-section-rigth-left-item-title">Viral Emotion Capture</p>
                                 <p className="step2a-fourth-section-rigth-left-item-text">Pain</p>
                             </div>
 
+                            <div class="score-bar-container">
+                                <div class="score-bar-background"></div>
+                                <div class="score-bar-fill"></div>
+                            </div>
                             <img src="../images/questionicon.png" alt="" />
                         </div>
 
                         <div className="step2a-fourth-section-rigth-left-item">
                             <div className="step2a-fourth-section-rigth-left-item-left">
-                                <p className="step2a-fourth-section-rigth-left-item-title">Retention Score</p>
-                                <p className="step2a-fourth-section-rigth-left-item-text">100</p>
+                                <p className="step2a-fourth-section-rigth-left-item-title">Viral Emotion Score</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">99</p>
                             </div>
 
                             <div class="score-bar-container">
@@ -316,8 +335,8 @@ const Step2a = () => {
 
                         <div className="step2a-fourth-section-rigth-left-item">
                             <div className="step2a-fourth-section-rigth-left-item-left">
-                                <p className="step2a-fourth-section-rigth-left-item-title">Retention Score</p>
-                                <p className="step2a-fourth-section-rigth-left-item-text">100</p>
+                                <p className="step2a-fourth-section-rigth-left-item-title">Emotional CTA Peak</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">Tuesday</p>
                             </div>
 
                             <div class="score-bar-container">
@@ -328,14 +347,128 @@ const Step2a = () => {
                             <img src="../images/questionicon.png" alt="" />
                         </div>
 
+
+                        <div className="step2a-fourth-section-rigth-left-item">
+                            <div className="step2a-fourth-section-rigth-left-item-left">
+                                <p className="step2a-fourth-section-rigth-left-item-title">Best Time to Post</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">7PM</p>
+                            </div>
+
+                            <img src="../images/questionicon.png" alt="" />
+                        </div>
+
+
+                        <div className="step2a-fourth-section-rigth-left-item">
+                            <div className="step2a-fourth-section-rigth-left-item-left">
+                                <p className="step2a-fourth-section-rigth-left-item-title">Trigger Index</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">Just Right</p>
+                            </div>
+
+                            <img src="../images/questionicon.png" alt="" />
+                        </div>
+
+
+                        <div className="step2a-fourth-section-rigth-left-item">
+                            <div className="step2a-fourth-section-rigth-left-item-left">
+                                <p className="step2a-fourth-section-rigth-left-item-title">Music</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">100</p>
+                            </div>
+
+                            <div class="score-bar-container">
+                                <div class="score-bar-background"></div>
+                                <div class="score-bar-fill"></div>
+                            </div>
+                            <img src="../images/questionicon.png" alt="" />
+                        </div>
+
+
+                        <div className="step2a-fourth-section-rigth-left-item">
+                            <div className="step2a-fourth-section-rigth-left-item-left">
+                                <p className="step2a-fourth-section-rigth-left-item-title">Audience Alignment</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">78</p>
+                            </div>
+
+                            <div class="score-bar-container">
+                                <div class="score-bar-background"></div>
+                                <div class="score-bar-fill"></div>
+                            </div>
+                            <img src="../images/questionicon.png" alt="" />
+                        </div>
+
+
+                        <div className="step2a-fourth-section-rigth-left-item">
+                            <div className="step2a-fourth-section-rigth-left-item-left">
+                                <p className="step2a-fourth-section-rigth-left-item-title">Adaption Score</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">100</p>
+                            </div>
+
+                            <div class="score-bar-container">
+                                <div class="score-bar-background"></div>
+                                <div class="score-bar-fill"></div>
+                            </div>
+                            <img src="../images/questionicon.png" alt="" />
+                        </div>
+
+
+
+                        <div className="step2a-fourth-section-rigth-left-item">
+                            <div className="step2a-fourth-section-rigth-left-item-left">
+                                <p className="step2a-fourth-section-rigth-left-item-title">CTA Allignment</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">100</p>
+                            </div>
+
+                            <div class="score-bar-container">
+                                <div class="score-bar-background"></div>
+                                <div class="score-bar-fill"></div>
+                            </div>
+                            <img src="../images/questionicon.png" alt="" />
+                        </div>
+
+
+                        <div className="step2a-fourth-section-rigth-left-item">
+                            <div className="step2a-fourth-section-rigth-left-item-left">
+                                <p className="step2a-fourth-section-rigth-left-item-title">Complexity Score</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">100</p>
+                            </div>
+
+                            <div class="score-bar-container">
+                                <div class="score-bar-background"></div>
+                                <div class="score-bar-fill"></div>
+                            </div>
+                            <img src="../images/questionicon.png" alt="" />
+                        </div>
+
+
+
+                        <div className="step2a-fourth-section-rigth-left-item">
+                            <div className="step2a-fourth-section-rigth-left-item-left">
+                                <p className="step2a-fourth-section-rigth-left-item-title">Story Telling</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">100</p>
+                            </div>
+
+                            <div class="score-bar-container">
+                                <div class="score-bar-background"></div>
+                                <div class="score-bar-fill"></div>
+                            </div>
+                            <img src="../images/questionicon.png" alt="" />
+                        </div>
+
+
+
+                        <div className="step2a-fourth-section-rigth-left-item">
+                            <div className="step2a-fourth-section-rigth-left-item-left">
+                                <p className="step2a-fourth-section-rigth-left-item-title">Novelty</p>
+                                <p className="step2a-fourth-section-rigth-left-item-text">100</p>
+                            </div>
+
+                            <div class="score-bar-container">
+                                <div class="score-bar-background"></div>
+                                <div class="score-bar-fill"></div>
+                            </div>
+                            <img src="../images/questionicon.png" alt="" />
+                        </div>
                     </div>
 
-
-                    <button className="step2a-fourth-section-rigth-button"  >
-                        <div  >See all metrics</div>
-                    </button>
-
-                    <div style={{ color: '#0B66FF', fontSize: 12, fontFamily: 'Lato', fontWeight: 400, wordWrap: 'break-word' }}>Currently showing 6/14 metrics </div>
 
                 </div>
             </div>
@@ -489,5 +622,5 @@ const Step2a = () => {
     )
 }
 
-export default Step2a
+export default Step2d
 

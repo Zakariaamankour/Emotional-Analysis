@@ -1,0 +1,1206 @@
+.BioOptimiserStart {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.BioOptimiserStart-title {
+    text-align: center;
+}
+
+.BioOptimiserStart-green {
+    background: linear-gradient(117.96deg, #A6FFCA 0%, #35DEFA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    font-family: 'Eloquia Display', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.BioOptimiserStart-black {
+    color: #242424;
+    font-size: 32px;
+    font-family: 'Eloquia Display', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.BioOptimiserStart-black-bold {
+    color: #242424;
+    font-size: 32px;
+    font-family: 'Eloquia Display', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.BioOptimiserStart-button {
+    width: 323px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.BioOptimiserStart-select {
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.BioOptimiserStart-subtext {
+    color: #0070FF;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+
+/* ------------------------------------------------------------BioOptimiser */
+.BioOptimiser-header-section-left {
+    text-align: center;
+}
+
+.BioOptimiser-header-section-left-header-title {
+    text-align: center;
+}
+
+.BioOptimiser-header-section-left-green {
+    background: linear-gradient(117.96deg, #A6FFCA 0%, #35DEFA 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    font-family: 'Eloquia Display', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.BioOptimiser-header-section-left-black {
+    color: #242424;
+    font-size: 32px;
+    font-family: 'Eloquia Display', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.BioOptimiser-header-section-left-black-bold {
+    color: #242424;
+    font-size: 32px;
+    font-family: 'Eloquia Display', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.BioOptimiser-header-section-left-header-subtitle {
+    width: 100%;
+    height: 100%;
+    color: #777777;
+    font-size: 20px;
+    font-family: 'Eloquia Display', sans-serif;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+
+
+.BioOptimiser-header-section-right {
+    text-align: center;
+}
+
+.BioOptimiser-header-section-right-sentiment-button {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.BioOptimiser-header-section-right-sentiment-text {
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.BioOptimiser-header-section-right-focus-mode-text {
+    color: #0070FF;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.BioOptimiser-header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+.BioOptimiser-profile-section-left-picture {
+    background: #D9D9D9;
+    width: 249px;
+    height: 249px;
+    border-radius: 50%;
+}
+
+.BioOptimiser-profile-section-right-title {
+    color: black;
+    font-size: 24px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.BioOptimiser-profile-section-right-text {
+    color: #242424;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.BioOptimiser-profile-section-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.BioOptimiser-profile-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 40px 0;
+}
+
+.BioOptimiser-snapshot-section-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.BioOptimiser-snapshot-section-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 60%;
+}
+
+.BioOptimiser-snapshot-section-right {
+    width: 675px;
+    height: 676px;
+    background: white;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    display: flex;
+    justify-content: center;
+}
+
+.BioOptimiser-snapshot-section {
+    width: 80%;
+    margin: 120px auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.BioOptimiser-snapshot-section-right div,
+.BioOptimiser-snapshot-section-right canvas {
+    width: 90% !important;
+    height: 90% !important;
+    margin: auto;
+}
+
+.BioOptimiser-picture-section-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.BioOptimiser-picture-section-left-picture {
+    background: #D9D9D9;
+    width: 249px;
+    height: 249px;
+    border-radius: 50%;
+}
+
+.BioOptimiser-picture-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.BioOptimiser-picture-section-right {
+    width: 795px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FAFAFA;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.BioOptimiser-picture-section-right-item-left-title {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-picture-section-right-item-left-text {
+    margin: 0;
+    color: black;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.BioOptimiser-picture-section-right-item-footer-title {
+    margin: 0;
+    color: #D9D9D9;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-picture-section-right-item-footer img {
+    width: 25px;
+    height: 25px;
+}
+
+.BioOptimiser-picture-section-right-item {
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 374px;
+    height: 126px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.BioOptimiser-picture-section-right-item-footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+
+.BioOptimiser-picture-section-right-button {
+    width: 195px;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.BioOptimiser-picture-section-right-button div {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-picture-section-right-item-right img {
+    width: 80px;
+    height: 80px;
+}
+
+.BioOptimiser-picture-section {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+/* ---------------------------------- */
+
+
+.BioOptimiser-name-section-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.BioOptimiser-name-section-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 60%;
+}
+
+.BioOptimiser-name-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.BioOptimiser-name-section-right {
+    width: 843px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FAFAFA;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.BioOptimiser-name-section-right-item-left-title {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-name-section-right-item-left-text {
+    margin: 0;
+    color: black;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.BioOptimiser-name-section-right-item-footer-title {
+    margin: 0;
+    color: #D9D9D9;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-name-section-right-item-footer img {
+    width: 25px;
+    height: 25px;
+}
+
+.BioOptimiser-name-section-right-item {
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 374px;
+    height: 126px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.BioOptimiser-name-section-right-item-footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+
+.BioOptimiser-name-section-right-button {
+    width: 195px;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.BioOptimiser-name-section-right-button div {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-name-section-right-item-right img {
+    width: 80px;
+    height: 80px;
+}
+
+.BioOptimiser-name-section {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+/* ------------------------------ */
+
+
+
+.BioOptimiser-bio-section-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.BioOptimiser-bio-section-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 60%;
+}
+
+.BioOptimiser-bio-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.BioOptimiser-bio-section-right {
+    width: 843px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FAFAFA;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    gap: 10px;
+    align-items: center;
+
+}
+
+
+
+.BioOptimiser-bio-section-right-item {
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 605px;
+    height: 262px;
+
+    gap: 50px;
+}
+
+.BioOptimiser-bio-section-right-item-footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+
+.BioOptimiser-bio-section-right-button {
+    width: 195px;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.BioOptimiser-bio-section-right-button div {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-bio-section {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.BioOptimiser-bio-section-right-item-title {
+    margin: 20px;
+    color: #242424;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-bio-section-right-item-text {
+    margin: 60px;
+    color: black;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+
+
+/* ---------------------------------- */
+
+
+.BioOptimiser-link-section-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.BioOptimiser-link-section-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 60%;
+}
+
+.BioOptimiser-link-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.BioOptimiser-link-section-right {
+    width: 843px;
+    height: 343px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FAFAFA;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.BioOptimiser-link-section-right-item-left-title {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-link-section-right-item-left-text {
+    margin: 0;
+    color: black;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.BioOptimiser-link-section-right-item-footer-title {
+    margin: 0;
+    color: #D9D9D9;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-link-section-right-item-footer img {
+    width: 25px;
+    height: 25px;
+}
+
+.BioOptimiser-link-section-right-item {
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 374px;
+    height: 126px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.BioOptimiser-link-section-right-item-footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+
+.BioOptimiser-link-section-right-button {
+    width: 195px;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.BioOptimiser-link-section-right-button div {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+
+
+.BioOptimiser-link-section {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+/* ---------------------------------- */
+
+
+.BioOptimiser-banner-section-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.BioOptimiser-banner-section-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 60%;
+}
+
+.BioOptimiser-banner-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.BioOptimiser-banner-section-right {
+    width: 843px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FAFAFA;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.BioOptimiser-banner-section-right-item-left-title {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-banner-section-right-item-left-text {
+    margin: 0;
+    color: black;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.BioOptimiser-banner-section-right-item-footer-title {
+    margin: 0;
+    color: #D9D9D9;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-banner-section-right-item-footer img {
+    width: 25px;
+    height: 25px;
+}
+
+.BioOptimiser-banner-section-right-item {
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 374px;
+    height: 126px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.BioOptimiser-banner-section-right-item-footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+
+.BioOptimiser-banner-section-right-button {
+    width: 195px;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.BioOptimiser-banner-section-right-button div {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+
+
+.BioOptimiser-banner-section {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+/* ---------------------------------- */
+
+
+.BioOptimiser-music-section-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.BioOptimiser-music-section-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 60%;
+}
+
+.BioOptimiser-music-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.BioOptimiser-music-section-right {
+    width: 843px;
+    height: 343px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #FAFAFA;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.BioOptimiser-music-section-right-item-left-title {
+    margin: 0;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-music-section-right-item-left-text {
+    margin: 0;
+    color: black;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.BioOptimiser-music-section-right-item-footer-title {
+    margin: 0;
+    color: #D9D9D9;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.BioOptimiser-music-section-right-item-footer img {
+    width: 25px;
+    height: 25px;
+}
+
+.BioOptimiser-music-section-right-item {
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 374px;
+    height: 126px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.BioOptimiser-music-section-right-item-footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+
+
+.BioOptimiser-music-section-right-button {
+    width: 195px;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.BioOptimiser-music-section-right-button div {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+
+
+.BioOptimiser-music-section {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+
+
+/* ---------------------------------- */
+
+
+.BioOptimiser-top-3-section-left-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.BioOptimiser-top-3-section-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    width: 22%;
+}
+
+.BioOptimiser-top-3-section-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.BioOptimiser-top-3-section-bottom {
+    background: #FAFAFA;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 843px;
+    height: 411px;
+    margin: 30px auto;
+}
+
+.BioOptimiser-top-3-section {
+    width: 80%;
+    margin: 50px auto;
+
+}
+
+
+.BioOptimiser-top-3-section-bottom-1-title {
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.scrore-bar {
+    position: relative;
+}
+
+.scrore-bar-blue {
+    background: #0070FF;
+    border-radius: 40px;
+    border: 1px #E5E5E5 solid;
+    width: 355px;
+    height: 10px;
+    position: absolute;
+
+}
+
+.scrore-bar-gray {
+    background: #E5E5E5;
+    border-radius: 40px;
+    border: 1px #E5E5E5 solid;
+    width: 400px;
+    height: 10px;
+
+
+}
+
+
+.BioOptimiser-top-3-section-bottom-1 button {
+    width: 100%;
+ 
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex
+}
+
+
+.BioOptimiser-top-3-section-bottom-1 button div {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+
+.BioOptimiser-top-3-section-bottom-1-button-text {
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.BioOptimiser-top-3-section-bottom-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100%;
+    width: 361px;
+    margin: auto;
+}
+
+.BioOptimiser-top-3-section-bottom-1-button{
+    width: 100%;
+}
