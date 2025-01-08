@@ -22,6 +22,18 @@ import ElevatePricing from './components/Pricing/ElevatePricing';
 import EvolvePricing from './components/Pricing/EvolvePricing';
 import CorePricing from './components/Pricing/CorePricing';
 import BasicPricing from './components/Pricing/BasicPricing';
+import PerformiaStart from './components/Performia/PerformiaStart';
+import Performia from './components/Performia/Performia';
+import ABTestingStart from './components/ABTesting/ABTestingStart';
+import ABTesting from './components/ABTesting/ABTesting';
+import CompetitorTrackerTool1 from './components/Competitor/CompetitorTrackerTool1';
+import CompetitorTrackerTool2 from './components/Competitor/CompetitorTrackerTool2';
+import CompetitorTrackerTool3 from './components/Competitor/CompetitorTrackerTool3';
+import HorizonPostAnalyserStart from './components/Analysers/HorizonPostAnalyserStart';
+import HorizonPostAnalyser2 from './components/Analysers/HorizonPostAnalyser2';
+import ReflectionStart from './components/Analysers/ReflectionStart';
+import Reflection from './components/Analysers/Reflection';
+import HorizonPostAnalyser3 from './components/Analysers/HorizonPostAnalyser3';
 
 
 function App() {
@@ -58,6 +70,18 @@ function App() {
           <Route path="/evolve-pricing" element={<EvolvePricing />} />
           <Route path="/core-pricing" element={<CorePricing />} />
           <Route path="/basic-pricing" element={<BasicPricing />} />
+          <Route path="/performia-start" element={<PerformiaStart />} />
+          <Route path="/performia" element={<Performia />} />
+          <Route path="/a-b-testing-start" element={<ABTestingStart />} />
+          <Route path="/a-b-testing" element={<ABTesting />} />
+          <Route path="/competitor-tracker-tool-1" element={<CompetitorTrackerTool1 />} />
+          <Route path="/competitor-tracker-tool-2" element={<CompetitorTrackerTool2 />} />
+          <Route path="/competitor-tracker-tool-3" element={<CompetitorTrackerTool3 />} />
+          <Route path="/horizon-post-analyser-start" element={<HorizonPostAnalyserStart />} />
+          <Route path="/horizon-post-analyser2" element={<HorizonPostAnalyser2 />} />
+          <Route path="/reflection-start" element={<ReflectionStart />} />
+          <Route path="/reflection" element={<Reflection />} />
+          <Route path="/horizon-post-analyser3" element={<HorizonPostAnalyser3 />} />
 
         </Routes>
 

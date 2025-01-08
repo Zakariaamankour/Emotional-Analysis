@@ -1,0 +1,55 @@
+/* StatsCard.css */
+.stats-card {
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 20px;
+    background-color: #fff;
+  }
+  
+  .stats-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stats-card-header .profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ddd;
+  }
+  
+  .stats-card-body {
+    padding: 20px;
+  }
+  
+  .stat-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .stat-item span:first-child {
+    font-weight: bold;
+  }
+  
+  .locked-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  .lock-icon {
+    width: 50px;
+    height: 50px;
+    background-image: url('../../../public/images/Brainblack.png'); /* Replace with actual lock icon path */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  

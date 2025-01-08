@@ -1,0 +1,552 @@
+.ABTestingStart-container-header-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 500;
+    word-wrap: break-word
+}
+
+.ABTestingStart-container-header-title span {
+    background: linear-gradient(117.96deg, #FB96A4 0%, #B1367A 50%, #943771 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ABTestingStart-container-buttons-light {
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 163px
+}
+
+.ABTestingStart-container-buttons-blue {
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 163px
+}
+
+.ABTestingStart-container-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.ABTestingStart-container-header-text {
+    margin: 0;
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Lato;
+    font-style: italic;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.ABTestingStart-container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+}
+
+
+/* ---------------------steps */
+.ab-testing-steps-container-header-title {
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin: 0;
+
+}
+
+.ab-testing-steps-container-header-title span {
+    background: linear-gradient(117.96deg, #FB96A4 0%, #B1367A 50%, #943771 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ab-testing-steps-container-header-text {
+    color: #86868B;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 0;
+
+}
+
+.ab-testing-steps-container-header {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.ab-testing-steps-container-header1 {
+    background-color: white;
+}
+
+
+.ab-testing-steps-container-steps-top-left {
+    position: relative;
+    width: 350px;
+    height: 222px;
+    background: white;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ab-testing-steps-current-picture-title {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    width: 20%;
+    color: #242424;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.ab-testing-steps-current-picture {
+    width: 164px;
+    height: 164px;
+    background: #D9D9D9;
+    border-radius: 9999px;
+    border: 1px #E5E5E5 solid
+}
+
+.ab-testing-steps-container-steps-top-right-top-left,
+.ab-testing-steps-container-steps-top-right-top-right {
+    width: 300px;
+    height: 103px;
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid
+}
+
+
+.ab-testing-steps-current-name-title,
+.ab-testing-steps-current-bio-title {
+    color: #242424;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 15px;
+}
+
+.ab-testing-steps-current-name,
+.ab-testing-steps-current-bio {
+    color: #242424;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    margin: 15px;
+}
+
+.ab-testing-steps-container-steps-top-right-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.ab-testing-steps-container-steps-top-right-bottom {
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 619px;
+    height: 168px;
+}
+
+.ab-testing-steps-container-steps-top-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.ab-testing-steps-container-steps-top {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.ab-testing-steps-container-steps-bottom-left-title {
+    color: #777777;
+    font-size: 24px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.ab-testing-steps-container-steps-bottom-left-title span {
+    color: black;
+}
+
+.ab-testing-steps-container-steps-bottom-left-button {
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 245px;
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    border: none;
+}
+
+.ab-testing-steps-container-steps-bottom-left-step-number {
+    margin: 5px 0;
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+
+}
+
+.ab-testing-steps-container-steps-bottom-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+
+}
+
+.ab-testing-steps-container-steps-bottom-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 614px;
+    justify-content: center;
+}
+
+.ab-testing-steps-container-steps-bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.ab-testing-steps-container-steps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.ab-testing-steps-container-steps-test-name {
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #E5E5E5 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 303px;
+    color: #777777;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.ab-testing-steps-current-name-edit,
+.ab-testing-steps-current-bio-edit,
+.ab-testing-steps-current-Category-edit,
+.ab-testing-steps-current-music-edit,
+.ab-testing-steps-current-Button-edit,
+.ab-testing-steps-current-Pronouns-edit {
+    color: #242424;
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.ab-testing-steps-current-bio-edit {
+    width: 80%;
+}
+
+
+.ab-testing-steps-container-step3-button {
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 303px;
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    border: none;
+}
+
+.ab-testing-steps-container-step3-step-number {
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.ab-testing-steps-container-step3-title {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.ab-testing-steps-container-step3-left-title {
+    color: black;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.ab-testing-steps-container-step3-left-title span {
+    color: #777777;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.ab-testing-steps-container-step3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+
+.ab-testing-steps-container-step3-left-Current-Picture-title,
+.ab-testing-steps-container-step3-left-Current-Username-title,
+.ab-testing-steps-container-step3-left-Current-Name-title,
+.ab-testing-steps-container-step3-left-Current-Bio-title,
+.ab-testing-steps-container-step3-left-Category-title,
+.ab-testing-steps-container-step3-left-Music-title,
+.ab-testing-steps-container-step3-left-Pronouns-title,
+.ab-testing-steps-container-step3-left-Action-Button-title {
+    color: #242424;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.ab-testing-steps-container-step3-left-Current-Picture-value,
+.ab-testing-steps-container-step3-left-Current-Username-value,
+.ab-testing-steps-container-step3-left-Current-Name-value,
+.ab-testing-steps-container-step3-left-Current-Bio-value,
+.ab-testing-steps-container-step3-left-Category-value,
+.ab-testing-steps-container-step3-left-Music-value,
+.ab-testing-steps-container-step3-left-Pronouns-value,
+.ab-testing-steps-container-step3-left-Action-Button-value {
+    color: #242424;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0;
+}
+
+.ab-testing-steps-container-step3-left-Current-Picture-container {
+    background: white;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 374px;
+    height: 270px;
+}
+
+.ab-testing-steps-container-step3-left-Current-Picture-value {
+    height: 200px;
+    width: 200px;
+    background: #D9D9D9;
+    border-radius: 9999px;
+    border: 1px #E5E5E5 solid;
+    margin: auto;
+}
+
+.ab-testing-steps-container-step3-left-item {
+    width: 374px;
+    height: 126px;
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid
+}
+
+.ab-testing-steps-container-step3-left-Current-Bio-item {
+    width: 374px;
+    height: 204px;
+    background: white;
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid
+}
+
+.ab-testing-steps-container-step3-left,.ab-testing-steps-container-step3-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.ab-testing-steps-container-step3-right-Current-Picture-title,
+.ab-testing-steps-container-step3-right-Current-Username-title,
+.ab-testing-steps-container-step3-right-Current-Name-title,
+.ab-testing-steps-container-step3-right-Current-Bio-title,
+.ab-testing-steps-container-step3-right-Category-title,
+.ab-testing-steps-container-step3-right-Music-title,
+.ab-testing-steps-container-step3-right-Pronouns-title,
+.ab-testing-steps-container-step3-right-Action-Button-title {
+    color: #242424;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.ab-testing-steps-container-step3-right-Current-Picture-value,
+.ab-testing-steps-container-step3-right-Current-Username-value,
+.ab-testing-steps-container-step3-right-Current-Name-value,
+.ab-testing-steps-container-step3-right-Current-Bio-value,
+.ab-testing-steps-container-step3-right-Category-value,
+.ab-testing-steps-container-step3-right-Music-value,
+.ab-testing-steps-container-step3-right-Pronouns-value,
+.ab-testing-steps-container-step3-right-Action-Button-value {
+    color: #242424;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0;
+}
+
+.ab-testing-steps-container-step3-right-Current-Picture-container {
+    background: rgba(166, 218, 255, 0.33);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    width: 374px;
+    height: 270px;
+}
+
+.ab-testing-steps-container-step3-right-Current-Picture-value {
+    height: 200px;
+    width: 200px;
+    background: #D9D9D9;
+    border-radius: 9999px;
+    border: 1px #E5E5E5 solid;
+    margin: auto;
+}
+
+.ab-testing-steps-container-step3-right-item {
+    width: 374px;
+    height: 126px;
+    background: rgba(166, 218, 255, 0.33);
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid
+}
+
+.ab-testing-steps-container-step3-right-Current-Bio-item {
+    width: 374px;
+    height: 204px;
+    background: rgba(166, 218, 255, 0.33);
+    box-shadow: 0px 4px 7px 4px rgba(229, 229, 229, 0.50);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid
+}
+
+
+.ab-testing-steps-container-step3-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+button{
+    cursor: pointer;
+}

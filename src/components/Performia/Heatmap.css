@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaText-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    /* Extra Light */
+    font-style: normal;
+}
+
+.heatmap-container {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+}
+
+.heatmap-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heatmap-header-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    margin-left: 20px;
+
+
+}
+
+.heatmap-logo {
+    width: 23px;
+    height: 21px;
+}
+
+.metric-buttons {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.metric-buttons button {
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #00A4FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: #00A4FF;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 137px;
+    cursor: pointer;
+}
+
+.metric-buttons button.active {
+    padding: 10px;
+    background: #00A4FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #00A4FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 137px;
+}
+
+.heatmap {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.heatmap-row {
+    display: flex;
+}
+
+.heatmap-cell {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.heatmap-cell-header {
+    background-color: white;
+    font-weight: bold;
+    margin: 2px;
+}
+
+.legend {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.legend span {
+    width: 30px;
+    height: 15px;
+    margin: 0 5px;
+}
+
+
+.heatmap-header-image-tex {
+    color: black;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.heatmap-container-title {
+    color: #777777;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+
+.heatmap-image-title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 370px;
+}

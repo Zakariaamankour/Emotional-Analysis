@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaText-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    /* Extra Light */
+    font-style: normal;
+}
+
+.PerformiaStart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+}
+
+
+.PerformiaStart-title {
+    font-size: 32px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word;
+    background: linear-gradient(117.96deg, #F7971E 0%, #FFD200 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.PerformiaStart-button {
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 303px;
+    border: none;
+    cursor: pointer;
+}
+
+.PerformiaStart-text {
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+.Performia {
+    margin: 40px auto;
+    width: 80%;
+}
+
+.Performia-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.Performia-header-title {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word;
+    background: linear-gradient(to right, #F7971E 0%, #FFD200 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.Performia-header-text {
+    color: #777777;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    line-height: 18px;
+    word-wrap: break-word;
+    margin: 0;
+
+}
+
+
+.Performia-top-button-container-button {
+    width: 181px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #242424 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: #242424;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Performia-top-button-container-text {
+    margin: 0;
+    color: #0B66FF;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Performia-top-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.close-button {
+    color: black;
+    font-size: 42px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word;
+    background: white;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.slick-slide>*:first-child {
+    padding: 20px;
+    background: white;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.Performia-graph {
+    margin: 40px 0;
+}
+
+
+.Performia-enlarge-title {
+    color: #777777;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.ReactModal__Content.ReactModal__Content--after-open canvas {
+    margin: auto;
+    height: 450px !important;
+}
+
+
+
+.Performia-container-footer-header-image-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.Performia-container-footer-header-image-container img {
+    width: 23px;
+    height: 21px
+}
+
+.Performia-container-footer-header-image-container p {
+    margin: 0;
+    color: black;
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Performia-container-footer-header-title {
+    margin: 0;
+    color: black;
+    font-size: 32px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Performia-container-footer-header-title span {
+    color: #0070FF;
+}
+
+.Performia-container-footer-header-texte {
+    color: #777777;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 600;
+    line-height: 18px;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+
+.Performia-container-footer-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 80%;
+    margin: 80px auto;
+}
+
+.Performia-container-footer-content-button {
+    width: 319px;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+
+.Performia-container-footer-content-text {
+
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.Performia-container-footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 60%;
+    margin-left: auto;
+}
+
+.Performia-container-footer {
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px #E5E5E5 solid;
+    height: 626px;
+}

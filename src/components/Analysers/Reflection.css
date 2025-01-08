@@ -1,0 +1,278 @@
+.ReflectionStart {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.ReflectionStart-title {
+    text-align: center;
+}
+
+.ReflectionStart-Competitor {
+
+    font-size: 42px;
+    font-family: Eloquia Display;
+    font-weight: 400;
+    word-wrap: break-word;
+    background: linear-gradient(117.96deg, #36D1DC 0%, #5B86E5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+
+.ReflectionStart-button {
+    width: 303px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.ReflectionStart-select {
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ReflectionStart-subtext {
+    color: #0070FF;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ReflectionStart-title-buttitle {
+    color: black;
+    font-size: 20px;
+    font-family: Eloquia Display;
+    font-weight: 500;
+    word-wrap: break-word;
+    margin: 0;
+}
+
+
+
+
+
+.Reflection {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.Reflection-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 150px;
+}
+
+.Reflection-navigation button {
+    background: white;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 242px;
+    color: #00A4FF;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    height: 60px;
+    border: none;
+}
+
+.Reflection-navigation .active {
+    background: #00A4FF;
+    box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    width: 242px;
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+
+.Reflection-container-picture {
+    width: 200px;
+    height: 200px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9999px
+}
+
+.Reflection-container-username {
+    margin: 0;
+    color: #242424;
+    font-size: 32px;
+    font-family: Lato;
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.Reflection-container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+
+.Reflection-container-start-button {
+    width: 237px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #777777 solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: #777777;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Reflection-container-text {
+    color: #0070FF;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.Reflection-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 0;
+    background: white;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    margin: 50px 0;
+}
+
+.Reflection-container-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Reflection-container-posts-post {
+    width: 256px;
+    height: 445px;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.Reflection-container-posts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 80%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.Reflection-container-posts-post:hover .Reflection-container-posts{
+   width: 100%;
+   gap: 5px;
+}
+.Reflection-container-posts-post:hover{
+    width: 276px;
+    height: 465px;
+ }
+
+.Reflection-container-plder-post-button {
+    width: 237px;
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 10px;
+    background: #00A4FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #00A4FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+
+}
+
+
+.Reflection-container-posts-select-button {
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 10px;
+    background: #00A4FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #00A4FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 164px;
+}
+
+.Reflection-container-posts-selected-number {
+    width: 58px;
+    height: 58px;
+    background: #00A4FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 9999px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+    word-wrap: break-word;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
