@@ -218,13 +218,23 @@ const DashboardGraphs = () => {
 
 
     // React Slick settings
+    // React Slick settings
     const sliderSettings = {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 2,
+        slidesToShow: 2, // Default number of slides for larger screens
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768, // Define the screen width breakpoint for mobile
+                settings: {
+                    slidesToShow: 1, // Show only one slide for smaller screens
+                },
+            },
+        ],
     };
+
 
     return (
         <div className='graphs'>

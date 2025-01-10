@@ -14,7 +14,7 @@
     font-style: normal;
 }
 
- 
+
 
 
 .dashboard-hrader-left-title {
@@ -403,7 +403,7 @@ input.switch:active::before {
     display: flex;
     align-items: center;
     justify-content: center;
- 
+
 }
 
 .graphs-data {
@@ -732,4 +732,41 @@ input.switch:active::before {
     justify-content: space-evenly;
     align-items: center;
     gap: 0;
+}
+
+
+@media(max-width:767px) {
+
+    .dashboard-header,
+    .dashboard-perfoomance-title,
+    .dashboard-diagnostic {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .dashboard-header-right-button {
+        padding: 10px 30px;
+    }
+
+    .dashboard-secondsection {
+        justify-content: center;
+        width: 100%;
+    }
+
+ 
+
+    .check-items{
+        width: auto;
+        height: auto;
+        margin: 0;
+    }
+
+    .competitor-map-container{
+        flex-wrap: wrap;
+    }
+    
+
+    .competitor-map-container-left-up{
+ 
+    }
 }

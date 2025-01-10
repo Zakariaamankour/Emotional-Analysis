@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EloquiaDisplay';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaText-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    /* Extra Light */
+    font-style: normal;
+}
+
+.ELearning-header-left-title {
+    margin: 0;
+    font-size: 32px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word;
+    color: #242424;
+
+}
+
+.ELearning-header-left-title span {
+    font-size: 32px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word;
+    margin: 0;
+    background: linear-gradient(117.96deg, #FAEF6C 0%, #B9FB40 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.ELearning-header-left-text {
+    margin: 0;
+    color: #777777;
+    font-size: 24px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+
+
+.ELearning-header-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+
+}
+
+.ELearning-header-right-bar-blue {
+    background: #00A4FF;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    height: 10px;
+    width: 130px;
+    position: absolute;
+}
+
+.ELearning-header-right-bar-gray {
+    background: #D9D9D9;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    height: 10px;
+    width: 301px;
+}
+
+.ELearning-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px auto;
+}
+
+
+
+
+/* -------------categories */
+/* ELearningCategories.css */
+
+.ELearning-item-time {
+    color: #777777;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 17px;
+    word-wrap: break-word
+}
+
+
+.ELearning-categories {
+    width: 335px;
+    /* Fixed width for the rectangle */
+
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    overflow: hidden;
+    /* Prevent content overflow */
+    height: 750px;
+    /* Set a fixed height */
+    display: flex;
+    flex-direction: column;
+
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    border: 1px rgba(0, 0, 0, 0.20) solid;
+}
+
+.ELearning-categories h3 {
+    color: #242424;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+/* Scrollable list */
+.ELearning-list {
+    flex: 1;
+    /* Fills the remaining space */
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+    padding-right: 5px;
+    /* Adds space for the scrollbar */
+}
+
+/* Category section */
+.ELearning-section {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.ELearning-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    color: #00A4FF;
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    transition: color 0.3s ease;
+}
+
+.ELearning-title:hover {
+    color: #007bff;
+}
+
+.ELearning-items {
+    list-style-type: disc;
+    color: #242424;
+    font-size: 14px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding: 0 15px;
+}
+
+.ELearning-items li {
+    margin-bottom: 8px;
+    cursor: pointer;
+    list-style-type: disc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ELearning-items li:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+
+/* --------Answers */
+.ELearning-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+}
+
+.ELearning-answers {
+    width: 912px;
+    height: 750px;
+    background: white;
+    border-radius: 14px;
+    border: 1px #E5E5E5 solid;
+    padding: 15px;
+}
+
+.ELearning-answers-item {
+    width: 80%;
+    margin: auto;
+}
+
+.ELearning-answers-item-title {
+    color: black;
+    font-size: 20px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.ELearning-answers-item-question {
+    color: black;
+    font-size: 14px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 600;
+    word-wrap: break-word
+}
+
+.ELearning-answers-item-answer {
+    color: black;
+    font-size: 12px;
+    font-family: 'EloquiaDisplay';
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+.ELearning-answers-item-answer ul:not(.answers-number) li {
+    list-style-type: disc;
+}
+
+
+.ELearning-answers p {
+    color: #242424;
+    font-size: 20px;
+    font-family: Open Sans;
+    font-weight: 300;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 100px;
+}
+
+.ELearning-categories-buttons button {
+    padding: 10px;
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    width: 89px;
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    border: none
+}
+
+.ELearning-categories-buttons button.active {
+    background: #0070FF;
+    color: white;
+}
+
+.ELearning-categories-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}

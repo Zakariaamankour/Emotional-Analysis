@@ -34,6 +34,10 @@ import HorizonPostAnalyser2 from './components/Analysers/HorizonPostAnalyser2';
 import ReflectionStart from './components/Analysers/ReflectionStart';
 import Reflection from './components/Analysers/Reflection';
 import HorizonPostAnalyser3 from './components/Analysers/HorizonPostAnalyser3';
+import ELearning from './components/E-Learning/ELearning';
+import ReflectionPostAnalysisGrowthFocus from './components/Analysers/ReflectionPostAnalysisGrowthFocus';
+import DerivativeStart from './components/Derivative/DerivativeStart';
+import Derivative from './components/Derivative/Derivative';
 
 
 function App() {
@@ -82,6 +86,10 @@ function App() {
           <Route path="/reflection-start" element={<ReflectionStart />} />
           <Route path="/reflection" element={<Reflection />} />
           <Route path="/horizon-post-analyser3" element={<HorizonPostAnalyser3 />} />
+          <Route path="/e-learning" element={<ELearning />} />
+          <Route path="/reflection-post-analysis-growth-focus" element={<ReflectionPostAnalysisGrowthFocus />} />
+          <Route path="/derivative-start" element={<DerivativeStart />} />
+          <Route path="/derivative" element={<Derivative />} />
 
         </Routes>
 

@@ -63,7 +63,7 @@ const SpiderGraph = () => {
   };
 
   return (
-    <div style={{ width: "500px", height: "500px", margin: "auto" }} className="SpiderGraph">
+    <div style={{ width: "500px", height: "500px", margin: "auto" }}>
       <Radar data={data} options={options} />
     </div>
   );
