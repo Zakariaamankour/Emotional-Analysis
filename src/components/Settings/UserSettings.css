@@ -84,3 +84,10 @@
     background: rgba(166, 218, 255, 0.15);
 
 }
+
+
+@media(max-width:767px){
+    .UserSettings-container-up, .UserSettings-container-down{
+        flex-wrap: wrap;
+    }
+}

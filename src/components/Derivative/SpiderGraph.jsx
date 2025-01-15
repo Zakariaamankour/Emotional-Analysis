@@ -63,7 +63,7 @@ const SpiderGraph = () => {
   };
 
   return (
-    <div style={{ width: "500px", height: "500px", margin: "auto" }}>
+    <div style={{ width: "500px", height: "500px", margin: "0 auto" }}>
       <Radar data={data} options={options} />
     </div>
   );

@@ -228,7 +228,7 @@ const Step2a = () => {
                             <span style={{ color: '#0070FF', fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Live</span>
                             <span style={{ color: '#242424', fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}> Analysis</span>
                         </div>
-                        <div style={{ width: '44%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Real-time insights into audience engagement.</div>
+                        <div className='step2a-second-section-left-header-text' style={{ width: '44%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Real-time insights into audience engagement.</div>
 
                         <div className="step2a-video-container" ref={(el) => targetRefs.current[1] = el} style={{ margin: "30px 0" }}></div>
 
@@ -260,7 +260,7 @@ const Step2a = () => {
                 <div className="step2a-fourth-section-left">
                     <div>
                         <div style={{ color: '#242424', fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Audience Analysis</div>
-                        <div style={{ width: '50%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Uncover strategies for growing your audience.</div>
+                        <div className='step2a-second-section-left-header-text' style={{ width: '50%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Uncover strategies for growing your audience.</div>
                     </div>
 
                     <div className="step2a-video-container" ref={(el) => targetRefs.current[2] = el} style={{ margin: "30px 0" }}></div>
@@ -346,7 +346,7 @@ const Step2a = () => {
                 <div className="step2a-five-section-left">
                     <div>
                         <div style={{ color: '#242424', fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Expand</div>
-                        <div style={{ width: '60%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Discover untapped potential with data-driven insights.</div>
+                        <div className='step2a-second-section-left-header-text' style={{ width: '60%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Discover untapped potential with data-driven insights.</div>
                     </div>
 
 
@@ -378,7 +378,7 @@ const Step2a = () => {
 
                     <div>
                         <div style={{ color: '#242424', fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Actionable Steps</div>
-                        <div style={{ width: '18%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Precise recommendations for impactful growth.</div>
+                        <div className='step2a-second-section-left-header-text sidebar-text-analysis'   style={{ width: '18%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Precise recommendations for impactful growth.</div>
                     </div>
 
                 </div>
@@ -451,7 +451,7 @@ const Step2a = () => {
 
                     <div>
                         <div style={{ color: '#242424', fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Tabulated View</div>
-                        <div style={{ width: '18%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Organised data for clarity and strategic action.</div>
+                        <div className='sidebar-text-analysis step2a-second-section-left-header-text'  style={{ width: '18%', color: '#86868B', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Organised data for clarity and strategic action.</div>
                     </div>
 
                 </div>

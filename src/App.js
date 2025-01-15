@@ -38,6 +38,10 @@ import ELearning from './components/E-Learning/ELearning';
 import ReflectionPostAnalysisGrowthFocus from './components/Analysers/ReflectionPostAnalysisGrowthFocus';
 import DerivativeStart from './components/Derivative/DerivativeStart';
 import Derivative from './components/Derivative/Derivative';
+import AudienceStart from './components/Audience/AudienceStart';
+import Audience from './components/Audience/Audience';
+import PrivacyPolicy from './components/Policy/PrivacyPolicy';
+import TermsConditions from './components/Policy/TermsConditions';
 
 
 function App() {
@@ -64,12 +68,12 @@ function App() {
           <Route path="/bio-optimiser" element={<BioOptimiser />} />
           <Route path="/trinity-start" element={<TrinityStart />} />
           <Route path="/trinity" element={<Trinity />} />
-          <Route path="/faqs" element={<Faqs />} />
-          <Route path="/our-impact" element={<OurImpact />} />
+          <Route path="/faq" element={<Faqs />} />
+          <Route path="/testimonials" element={<OurImpact />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/support" element={<Support />} />
           <Route path="/our-story" element={<OurStory />} />
-          <Route path="/pricing-comparaison" element={<PricingComparaison />} />
+          <Route path="/pricing" element={<PricingComparaison />} />
           <Route path="/elevate-pricing" element={<ElevatePricing />} />
           <Route path="/evolve-pricing" element={<EvolvePricing />} />
           <Route path="/core-pricing" element={<CorePricing />} />
@@ -90,6 +94,10 @@ function App() {
           <Route path="/reflection-post-analysis-growth-focus" element={<ReflectionPostAnalysisGrowthFocus />} />
           <Route path="/derivative-start" element={<DerivativeStart />} />
           <Route path="/derivative" element={<Derivative />} />
+          <Route path="/audience-start" element={<AudienceStart />} />
+          <Route path="/audience" element={<Audience/>} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
+          <Route path="/terms-conditions" element={<TermsConditions/>} />
 
         </Routes>
 

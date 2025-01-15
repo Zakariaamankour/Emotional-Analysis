@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './HomePage.css'
 import { FaBook } from "react-icons/fa";
+import VideosSlider from './VideosSlider';
 
 
 const HomePage = () => {
@@ -235,7 +236,7 @@ const HomePage = () => {
 
 
                                     <div class="logo-section-blackbrain">
-                                        <img src="../images/Brainblack.png" alt="Brain Logo" class="logo-image" />
+                                        <img src="../images/brainblack.png" alt="Brain Logo" class="logo-image" />
                                         <div class="logo-text-container">
                                             <span class="logo-primary">C7</span>
                                             <span class="logo-secondary">.AI</span>
@@ -257,7 +258,7 @@ const HomePage = () => {
 
                                     <div class="text-container mobile">
                                         <span class="text-bold-dark">Empowering creators with purpose.</span><br />
-                                        <span class="text-regular-gray">Empowering creators with purpose with four tailored paths.</span>
+                                        <span class="text-regular-gray"><span className='mobile-version'>Empowering creators with purpose </span>with four tailored paths.</span>
 
                                     </div>
 
@@ -421,7 +422,7 @@ const HomePage = () => {
             <div className="homepage-3">
 
 
-                <div class="text-container">
+                <div class="text-container  mobile-version">
                     <span class="main-text">Designed for creators like you.<br /></span>
                     <span class="sub-text">From novices to</span>
                     <span class="highlight-text"></span>
@@ -578,13 +579,7 @@ const HomePage = () => {
                     <div className='proven-growthpProven-creators' style={{ color: '#777777', fontSize: 42, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Proven Growth, Proven Creators.</div>
                     <div className='real-results' style={{ color: '#0070FF', fontSize: 42, fontFamily: 'Bumbbled', fontWeight: 400, wordWrap: 'break-word' }}>Real results.</div>
 
-                    <div className="slider-items"  >
-                        <div style={{ width: '313px', height: '556px', background: '#D9D9D9', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 14 }} />
-                        <div style={{ width: '313px', height: '556px', background: '#D9D9D9', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 14 }} />
-                        <div style={{ width: '313px', height: '556px', background: '#D9D9D9', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 14 }} />
-                        <div style={{ width: '313px', height: '556px', background: '#D9D9D9', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 14 }} />
-
-                    </div>
+                    <VideosSlider />
 
 
 

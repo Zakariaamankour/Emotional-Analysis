@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import './Header.css';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     const [activeMenu, setActiveMenu] = useState(null); // Tracks the active menu
@@ -10,29 +11,71 @@ const Header = () => {
 
     // Menu items and their submenus
     const menuItems = [
-        { title: "Dashboard", submenu: [] },
+        { title: "Dashboard", link: "/dashboard", submenu: [] },
         {
             title: "Tools", submenu: [
-                { cat: "Explore Analysis Tools", items: ["Emotional Analysis", "Bio Optimiser", "Trinity", "A/B Testing", "Audience Persona", "Derivative", "Performia"] },
-                { cat: "Explore Competitor Tools", items: ["Tracker", "Playbook", "Comparison", "Selector"] },
-                { cat: "Explore Feedback Tools", items: ["Horizon", "Reflection"] }
+                {
+                    cat: "Explore Analysis Tools",
+                    items: [
+                        { name: "Emotional Analysis", link: "/emotional-analysis" },
+                        { name: "Bio Optimiser", link: "/bio-optimiser" },
+                        { name: "Trinity", link: "/trinity" },
+                        { name: "A/B Testing", link: "/a-b-testing-start" },
+                        { name: "Audience Persona", link: "/audience-persona" },
+                        { name: "Derivative", link: "/derivative" },
+                        { name: "Performia", link: "/performia" }
+                    ]
+                },
+                {
+                    cat: "Explore Competitor Tools",
+                    items: [
+                        { name: "Tracker", link: "/tracker" },
+                        { name: "Playbook", link: "/playbook" },
+                        { name: "Comparison", link: "/comparison" },
+                        { name: "Selector", link: "/selector" }
+                    ]
+                },
+                {
+                    cat: "Explore Feedback Tools",
+                    items: [
+                        { name: "Horizon", link: "/horizon" },
+                        { name: "Reflection", link: "/reflection" }
+                    ]
+                }
             ]
         },
-        { title: "Our Impact", submenu: [] },
+        { title: "Our Impact", link: "/testimonials", submenu: [] },
         {
             title: "Pricing", submenu: [
-                { cat: "Explore Pricing", items: ["All Tiers", "Elevate", "Evolve", "Core", "Basic", "Comparison"] }
+                {
+                    cat: "Explore Pricing",
+                    items: [
+                        { name: "All Tiers", link: "/pricing" },
+                        { name: "Elevate", link: "/elevate-pricing" },
+                        { name: "Evolve", link: "/evolve-pricing" },
+                        { name: "Core", link: "/core-pricing" },
+                        { name: "Basic", link: "/basic-pricing" },
+                        { name: "Comparison", link: "/pricing" }
+                    ]
+                }
             ]
         },
-        { title: "Blogs", submenu: [] },
-        { title: "Support", submenu: [] },
+        { title: "Blogs", link: "/blogs", submenu: [] },
+        { title: "Support", link: "/support", submenu: [] },
         {
             title: "E-Learning", submenu: [
-                { cat: "Explore E-Learning", items: ["All Outcomes", "Advanced", "Beginner"] }
+                {
+                    cat: "Explore E-Learning",
+                    items: [
+                        { name: "All Outcomes", link: "/e-learning" },
+                        { name: "Advanced", link: "/e-learning" },
+                        { name: "Beginner", link: "/e-learning" }
+                    ]
+                }
             ]
         },
-        { title: "Coming Soon", submenu: [] },
-        { title: "FAQ", submenu: [] },
+        { title: "Coming Soon", link: "/coming-soon", submenu: [] },
+        { title: "FAQ", link: "/faq", submenu: [] },
     ];
 
 
@@ -77,32 +120,18 @@ const Header = () => {
     const toggleSubmenu = (index) => {
         setActiveSubmenu(activeSubmenu === index ? null : index);
     };
-    useEffect(() => {
-        if (mobileMenuOpen) {
-            document.body.style.position = 'fixed';
-            document.body.style.top = '0';
-        } else {
-            document.body.style.position = 'static';
-            document.body.style.top = 'initial';
-        }
-
-        // Clean up the styles when the component unmounts or menu is closed
-        return () => {
-            document.body.style.position = 'static';
-            document.body.style.top = 'initial';
-        };
-    }, [mobileMenuOpen]);
+   
     return (
         <div className="header">
             <div className="items">
                 <div className="item">
-                    <a href="/" onClick={toggleMobileMenu}>
+                    <Link to='/' onClick={toggleMobileMenu}>
                         <img
                             src="../images/logo.png"
                             className="img-fluid rounded-top logo"
                             alt="Logo"
                         />
-                    </a>
+                    </Link>
                 </div>
 
                 {menuItems.map((item, index) => (
@@ -113,7 +142,15 @@ const Header = () => {
                         onMouseLeave={handleMenuLeave} // Delay hiding submenu
                     >
                         <div className="item">
-                            <a href="#">{item.title}</a>
+                            {
+                                item.link ? (
+                                    <Link to={item.link}>
+                                        {item.title}
+                                    </Link>
+                                ) : (
+                                    <a href="#">{item.title}</a>
+                                )
+                            }
                         </div>
 
                         {/* Display submenu only if it exists */}
@@ -126,7 +163,7 @@ const Header = () => {
                                             <ul className="subitems">
                                                 {sub.items.map((subItem, itemIndex) => (
                                                     <li key={itemIndex}>
-                                                        <a href="#">{subItem}</a> {/* Submenu items */}
+                                                        <Link to={subItem.link}>{subItem.name}</Link> {/* Submenu items */}
                                                     </li>
                                                 ))}
                                             </ul>
@@ -144,11 +181,12 @@ const Header = () => {
                 <div className="last-section-menu">
 
                     <div className="item">
-                        <img
-                            src="../images/profileicon.png"
-                            className="img-fluid rounded-top"
-                            alt="Icon"
-                        />
+                        <Link to="/user-settings">
+                            <img
+                                src="../images/profileicon.png"
+                                className="img-fluid rounded-top"
+                                alt="Icon"
+                            /></Link>
                     </div>
                     <div className="item">
                         <img
@@ -185,9 +223,12 @@ const Header = () => {
                                         {activeSubmenu === subIndex && (
                                             <ul>
                                                 {sub.items.map((subItem, itemIndex) => (
-                                                    <li key={itemIndex}><a href="#">{subItem}</a></li>
+                                                    <li key={itemIndex}>
+                                                        <a href={subItem.link}>{subItem.name}</a>  
+                                                    </li>
                                                 ))}
                                             </ul>
+
                                         )}
                                     </li>
                                 ))}

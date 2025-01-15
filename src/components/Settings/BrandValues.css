@@ -138,3 +138,26 @@
     right: 20px;
     cursor: pointer;
 }
+
+
+@media(max-width:767px) {
+    .BrandValues-title-left {
+
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .BrandValues-container {
+        width: auto;
+    }
+
+    .BrandValues-container-socialName,
+    .BrandValues-container-link {
+        font-size: 15px;
+    }
+
+    .BrandValues-container-up,
+    .BrandValues-container-down {
+        gap: 20px;
+    }
+}

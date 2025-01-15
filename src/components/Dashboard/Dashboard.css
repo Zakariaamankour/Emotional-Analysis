@@ -766,7 +766,21 @@ input.switch:active::before {
     }
     
 
-    .competitor-map-container-left-up{
- 
+    .competitor-map-container-left{
+        overflow: scroll;
+    }
+
+    .excel-your-skills-container{
+        flex-wrap: wrap;
+    }
+
+    .acheivements-container-2-title-left-text, .acheivements-container-3-title-left-text{
+        width: 50%;
+    }
+    .acheivements-container-1-item {
+        width: 130px;
+    }
+    .acheivements-container-1{
+        width: 100%;
     }
 }

@@ -514,7 +514,6 @@
 
 
 .step2a-five-section-right-title {
-
     color: #242424;
     font-size: 20px;
     font-family: Lato;
@@ -671,4 +670,72 @@
 
 .step2a-second-section-right-left-item-footer-img:hover {
     cursor: pointer;
+}
+
+
+@media(max-width:767px) {
+    .step2a-header {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .step2a-first-section {
+        gap: 0
+    }
+
+    .step2a-second-section-right {
+        width: auto;
+        height: auto;
+    }
+
+    .step2a-second-section-right-left-item {
+        width: 270px;
+    }
+
+
+    .step2a-second-section-left {
+        gap: 36px;
+    }
+
+    .step2a-second-section,
+    .live-analysis-section,
+    .step2a-fourth-section,
+    .step2a-five-section {
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+
+    .step2a-second-section-right-spider {
+        flex-wrap: wrap;
+        width: 70%;
+        margin: auto;
+        height: auto;
+    }
+
+    .step2a-second-section-right-left-spider,
+    .live-analysis-section-right {
+        width: 100%;
+        overflow: scroll;
+    }
+
+    .step2a-fourth-section-rigth-left,
+    .step2a-fourth-section-rigth,
+    .step2a-six-section-bottom {
+        height: auto;
+    }
+
+    .step2a-fourth-section-rigth-left-item,
+    .step2a-six-section-bottom-item {
+        width: 250px;
+    }
+
+
+    .step2a-top {
+        width: 90%;
+    }
+
+    .step2a-second-section-left-header-text{
+        width: 60% !important ;
+    }
 }

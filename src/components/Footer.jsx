@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './Footer.css';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     const [activeSection, setActiveSection] = useState(null);
@@ -28,8 +29,11 @@ const Footer = () => {
         <div className="footer">
             <div className="first-section">
                 <div className="logo-section">
-                    <img src="/images/logo.png" alt="logo" />
+                    <Link to={'/'}>
+                        <img src="/images/logo.png" alt="logo" />
+                    </Link>
                     <p>Celeste 7 AI</p>
+
                 </div>
 
                 <div className="search-section">
@@ -43,43 +47,43 @@ const Footer = () => {
                 <div className="part-1">
                     <p onClick={() => toggleSection('part-1')}>GET STARTED</p>
                     <ul className={activeSection === 'part-1' ? "active" : ""}>
-                        <li><a href="">My Dashboard</a></li>
-                        <li><a href="">Emotional Analysis</a></li>
-                        <li><a href="">Competitor Tracker</a></li>
+                        <li><Link to="/">My Dashboard</Link></li>
+                        <li><Link to="/emotional-analysis">Emotional Analysis</Link></li>
+                        <li><Link to="">Competitor Tracker</Link></li>
                     </ul>
                 </div>
 
                 <div className="part-2">
                     <p onClick={() => toggleSection('part-2')}>TOOLS</p>
                     <ul className={activeSection === 'part-2' ? "active" : ""}>
-                        <li><a href="">Emotional Analysis</a></li>
-                        <li><a href="">Bio Optimizer</a></li>
-                        <li><a href="">A/B Testing</a></li>
-                        <li><a href="">Reflect</a></li>
-                        <li><a href="">Horizon</a></li>
-                        <li><a href="">Competitor Tracker</a></li>
-                        <li><a href="">Competitor Playbook</a></li>
-                        <li><a href="">Pricing</a></li>
+                        <li><Link to="/emotional-analysis">Emotional Analysis</Link></li>
+                        <li><Link to="/bio-optimiser">Bio Optimizer</Link></li>
+                        <li><Link to="/a-b-testing-start">A/B Testing</Link></li>
+                        <li><Link to="/reflection-start">Reflect</Link></li>
+                        <li><Link to="/horizon-post-analyser-start">Horizon</Link></li>
+                        <li><Link to="">Competitor Tracker</Link></li>
+                        <li><Link to="">Competitor Playbook</Link></li>
+                        <li><Link to="/pricing">Pricing</Link></li>
                     </ul>
                 </div>
 
                 <div className="part-3">
                     <p onClick={() => toggleSection('part-3')}>RESOURCES</p>
                     <ul className={activeSection === 'part-3' ? "active" : ""}>
-                        <li><a href="">E-learning Hub</a></li>
-                        <li><a href="">FAQ</a></li>
-                        <li><a href="">Blog</a></li>
-                        <li><a href="">C7.AI</a></li>
-                        <li><a href="">Celeste 7 Live</a></li>
-                        <li><a href="">Celeste 7 vs. Hootsuite</a></li>
+                        <li><Link to="/e-learning">E-learning Hub</Link></li>
+                        <li><Link to="/faq">FAQ</Link></li>
+                        <li><Link to="/blogs">Blog</Link></li>
+                        <li><Link to="/faq">C7.AI</Link></li>
+                        <li><Link to="/faq">Celeste 7 Live</Link></li>
+                        <li><Link to="/faq">Celeste 7 vs. Hootsuite</Link></li>
                     </ul>
                 </div>
 
                 <div className="part-4">
                     <p onClick={() => toggleSection('part-4')}>COMPANY</p>
                     <ul className={activeSection === 'part-4' ? "active" : ""}>
-                        <li><a href="">Our Impact</a></li>
-                        <li><a href="">Story</a></li>
+                        <li><Link to="/testimonials">Our Impact</Link></li>
+                        <li><Link to="/our-story">Story</Link></li>
                     </ul>
                 </div>
 
@@ -97,15 +101,15 @@ const Footer = () => {
 
             <div className="last-section">
                 <div className="social-media-icons">
-                    <a href=""><img src="/images/Facebook Logo Vector.png" alt="" /></a>
-                    <a href=""><img src="/images/LinkIn Logo Vector.png" alt="" /></a>
-                    <a href=""><img src="/images/IG Logo Vector.png" alt="" /></a>
-                    <a href=""><img src="/images/TikTok Logo Vector.png" alt="" /></a>
-                    <a href=""><img src="/images/X Logo Vector.png" alt="" /></a>
+                    <Link to="https://facebbok.com"><img src="/images/Facebook Logo Vector.png" alt="" /></Link>
+                    <Link to="https://linkedin.com"><img src="/images/LinkIn Logo Vector.png" alt="" /></Link>
+                    <Link to="https://instagram.com"><img src="/images/IG Logo Vector.png" alt="" /></Link>
+                    <Link to="https://tiktok.com"><img src="/images/TikTok Logo Vector.png" alt="" /></Link>
+                    <Link to="https://x.com"><img src="/images/X Logo Vector.png" alt="" /></Link>
                 </div>
                 <p>Celeste 7. All rights reserved. 2025.</p>
-                <a href="">Terms & Conditions</a>
-                <a href="">Privacy Policy</a>
+                <Link to="terms-conditions">Terms & Conditions</Link>
+                <Link to="privacy-policy">Privacy Policy</Link>
             </div>
         </div>
     );

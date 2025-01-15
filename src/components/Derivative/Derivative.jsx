@@ -3,8 +3,24 @@ import './Derivative.css'
 import SpiderGraph from "./SpiderGraph"
 import CustomBarChart from "./CustomBarChart"
 import StackedHorizontalBarChart from "./StackedHorizontalBarChart"
+import BarChart from "../Analysers/BarChart"
+import StackedBarChartAudience from "../Analysers/StackedBarChartAudience"
+import PieChartComponent from "./PieChartComponent"
+import StackedBarChart from "../Analysers/StackedBarChart"
 
 const Derivative = () => {
+    const genderData = {
+        labels: ["Male", "Female"],
+        values: [50, 50],
+    };
+
+    const ageData = {
+        labels: ["18-24", "25-34", "35-44", "45+"],
+        values: [30, 40, 20, 10],
+    };
+
+    const colorsGender = ["#FF6384", "#36A2EB"];
+    const colorsAge = ["#FF6384", "#36A2EB", "#FFCE56", "#4BC0C0"];
 
     return (
         <div className="Derivative">
@@ -76,91 +92,96 @@ const Derivative = () => {
                     <p className="Derivative-left-sidebar-title">Snapshot</p>
                     <p className="Derivative-left-sidebar-text">Hover over each KPI for further details.</p>
                 </div>
+                <div className="Derivative-demographic-right-containere">
+                    <div className="Derivative-demographic-right">
+                        <div className="Derivative-demographic-right-container Derivative-demographic-right-left">
+                            <div className="Derivative-demographic-card">
+                                <p className="Derivative-demographic-card-title">Post Frequency</p>
+                                <div className="Derivative-demographic-card-middle">
+                                    <p className="Derivative-demographic-card-score">123</p>
+                                    <p className="Derivative-demographic-card-trend up">▲</p>
+                                </div>
+                                <img
+                                    className="Derivative-demographic-card-icon"
+                                    src="../images/questionicon.png"
+                                    alt="info-icon"
+                                />
+                            </div>
 
-                <div className="Derivative-Snapshot-right">
-                    <div className="Derivative-Snapshot-right-item">
-                        <p className="Derivative-Snapshot-right-item-title">Prodiment Emotion</p>
-                        <p className="Derivative-Snapshot-right-item-text">Happiness</p>
+                            <div className="Derivative-demographic-card">
+                                <p className="Derivative-demographic-card-title">Followers Gained</p>
+                                <div className="Derivative-demographic-card-middle">
+                                    <p className="Derivative-demographic-card-value">43</p>
+                                    <p className="Derivative-demographic-card-trend down">▼</p>
+                                </div>
+                                <img
+                                    className="Derivative-demographic-card-icon"
+                                    src="../images/questionicon.png"
+                                    alt="info-icon"
+                                />
+                            </div>
 
-                        <div className="Derivative-Snapshot-right-item-footer">
-                            <p className="Derivative-Snapshot-right-item-footer-title">Why is this important</p>
-                            <img src="../images/questionicon.png" alt="" />
+                            <div className="Derivative-demographic-card">
+                                <p className="Derivative-demographic-card-title">Accounts Reached</p>
+                                <div className="Derivative-demographic-card-middle">
+                                    <p className="Derivative-demographic-card-value">22</p>
+                                </div>
+                                <img
+                                    className="Derivative-demographic-card-icon"
+                                    src="../images/questionicon.png"
+                                    alt="info-icon"
+                                />
+                            </div>
                         </div>
+                        <div className="Derivative-demographic-right-container">
+                            <div className="Derivative-demographic-card">
+                                <p className="Derivative-demographic-card-title">Post Frequency</p>
+                                <div className="Derivative-demographic-card-middle">
+                                    <p className="Derivative-demographic-card-score">33</p>
+                                    <p className="Derivative-demographic-card-trend up">▲</p>
+                                </div>
+                                <img
+                                    className="Derivative-demographic-card-icon"
+                                    src="../images/questionicon.png"
+                                    alt="info-icon"
+                                />
+                            </div>
+
+                            <div className="Derivative-demographic-card">
+                                <p className="Derivative-demographic-card-title">Followers Gained</p>
+                                <div className="Derivative-demographic-card-middle">
+                                    <p className="Derivative-demographic-card-value">43</p>
+                                    <p className="Derivative-demographic-card-trend down">▼</p>
+                                </div>
+                                <img
+                                    className="Derivative-demographic-card-icon"
+                                    src="../images/questionicon.png"
+                                    alt="info-icon"
+                                />
+                            </div>
+
+                            <div className="Derivative-demographic-card">
+                                <p className="Derivative-demographic-card-title">Accounts Reached</p>
+                                <div className="Derivative-demographic-card-middle">
+                                    <p className="Derivative-demographic-card-value">22</p>
+                                </div>
+                                <img
+                                    className="Derivative-demographic-card-icon"
+                                    src="../images/questionicon.png"
+                                    alt="info-icon"
+                                />
+                            </div>
+                        </div>
+
                     </div>
-                    <div className="Derivative-Snapshot-right-item">
-                        <p className="Derivative-Snapshot-right-item-title">C7 Aesthetic Score</p>
-                        <p className="Derivative-Snapshot-right-item-text">43</p>
 
-                        <div className="Derivative-Snapshot-right-item-footer">
-                            <p className="Derivative-Snapshot-right-item-footer-title">Why is this important</p>
-                            <img src="../images/questionicon.png" alt="" />
-                        </div>
-                    </div>
-                    <div className="Derivative-Snapshot-right-item">
-                        <p className="Derivative-Snapshot-right-item-title">Quality</p>
-                        <p className="Derivative-Snapshot-right-item-text">22</p>
-
-                        <div className="Derivative-Snapshot-right-item-footer">
-                            <p className="Derivative-Snapshot-right-item-footer-title">Why is this important</p>
-                            <img src="../images/questionicon.png" alt="" />
-                        </div>
-                    </div>
-                    <div className="Derivative-Snapshot-right-item">
-                        <p className="Derivative-Snapshot-right-item-title">Prodiment Emotion</p>
-                        <p className="Derivative-Snapshot-right-item-text">Happiness</p>
-
-                        <div className="Derivative-Snapshot-right-item-footer">
-                            <p className="Derivative-Snapshot-right-item-footer-title">Why is this important</p>
-                            <img src="../images/questionicon.png" alt="" />
-                        </div>
-                    </div>
-                    <div className="Derivative-Snapshot-right-item">
-                        <p className="Derivative-Snapshot-right-item-title">Engagement Score</p>
-                        <p className="Derivative-Snapshot-right-item-text">14</p>
-
-                        <div className="Derivative-Snapshot-right-item-footer">
-                            <p className="Derivative-Snapshot-right-item-footer-title">Why is this important</p>
-                            <img src="../images/questionicon.png" alt="" />
-                        </div>
-                    </div>
-                    <div className="Derivative-Snapshot-right-item">
-                        <p className="Derivative-Snapshot-right-item-title">C7 Virality Score</p>
-                        <p className="Derivative-Snapshot-right-item-text">54</p>
-
-                        <div className="Derivative-Snapshot-right-item-footer">
-                            <p className="Derivative-Snapshot-right-item-footer-title">Why is this important</p>
-                            <img src="../images/questionicon.png" alt="" />
-                        </div>
-                    </div>
-                    <div className="Derivative-Snapshot-right-item">
-                        <p className="Derivative-Snapshot-right-item-title">Prodiment Emotion</p>
-                        <p className="Derivative-Snapshot-right-item-text">Happiness</p>
-
-                        <div className="Derivative-Snapshot-right-item-footer">
-                            <p className="Derivative-Snapshot-right-item-footer-title">Why is this important</p>
-                            <img src="../images/questionicon.png" alt="" />
-                        </div>
-                    </div>
-                    <div className="Derivative-Snapshot-right-item">
-                        <p className="Derivative-Snapshot-right-item-title">Engagement Score</p>
-                        <p className="Derivative-Snapshot-right-item-text">15</p>
-
-                        <div className="Derivative-Snapshot-right-item-footer">
-                            <p className="Derivative-Snapshot-right-item-footer-title">Why is this important</p>
-                            <img src="../images/questionicon.png" alt="" />
-                        </div>
-                    </div>
-                    <div className="Derivative-Snapshot-right-item">
-                        <p className="Derivative-Snapshot-right-item-title">C7 Virality Score</p>
-                        <p className="Derivative-Snapshot-right-item-text">74</p>
-
-                        <div className="Derivative-Snapshot-right-item-footer">
-                            <p className="Derivative-Snapshot-right-item-footer-title">Why is this important</p>
-                            <img src="../images/questionicon.png" alt="" />
-                        </div>
+                    <div className="Derivative-demographic-right-button">
+                        <button>
+                            Deeper Dive
+                        </button>
+                        <p>Click for more metrics</p>
                     </div>
                 </div>
-
 
             </div>
 
@@ -175,12 +196,15 @@ const Derivative = () => {
                     <p className="Derivative-left-sidebar-text">Metrics to understand what sets your content apart.</p>
                 </div>
 
-                <div className="Derivative-Comparison-right">
-                    <div className="Derivative-Comparison-right-top">
+                <div className="HorizonPostAnalyser3-Comparison-right ReflectionPostAnalysisGrowthFocus-Comparison-right" >
+                    <div className="HorizonPostAnalyser3-Comparison-right-top">
                         <img src="../images/brainblack.png" alt="" />
                         <p>C7.AI</p>
                     </div>
+
                     <SpiderGraph />
+                    <div style={{ color: 'black', fontSize: 14, fontFamily: 'Lato', fontWeight: 700, wordWrap: 'break-word' }}>Spider graph to include following  engagement metrics (likes, shares, and accounts reached)</div>
+                    <div style={{ width: '80%', textAlign: 'center', color: 'black', fontSize: 20, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>You have nailed your engagement rates, consider increases X to improve next post.</div>
 
                 </div>
             </div>
@@ -188,295 +212,296 @@ const Derivative = () => {
 
 
 
-            <div className="Derivative-Closer-Look">
-                <div className="Derivative-left-sidebar">
-                    <div className="Derivative-left-sidebar-bar" style={{ background: "#078BFF" }} />
-                    <p className="Derivative-left-sidebar-title">Closer Look</p>
-                    <p className="Derivative-left-sidebar-text">Hover over each KPI for further details.</p>
+            <div className="Performia-container-footer">
+
+                <div className="Performia-container-footer-header">
+                     <p className="Performia-container-footer-header-title"><span>Live</span> Inisghts</p>
+                    <p className="Performia-container-footer-header-texte">Dive deeper into the evolution of your metrics.</p>
+                    <div className="Performia-container-footer-header-image-container">
+                        <img src="../images/brainblack.png" alt="" />
+                        <p>C7.AI</p>
+                    </div>
+
                 </div>
 
-                <div className="Derivative-Closer-Look-right">
-                    <div className="Derivative-Closer-Look-container">
-                        <div className="Derivative-Closer-Look-item">
-                            <p className="Derivative-Closer-Look-item-title">CTR</p>
-                            <p className="Derivative-Closer-Look-item-text">3.4%</p>
 
-                            <div className="Derivative-Closer-Look-item-footer">
-                                <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
-                                <img src="../images/questionicon.png" alt="" />
-                            </div>
-                        </div>
+                <div className="Performia-container-footer-content">
 
-                        <div className="Derivative-Closer-Look-item">
-                            <p className="Derivative-Closer-Look-item-title">Shares per Reach</p>
-                            <p className="Derivative-Closer-Look-item-text">43</p>
-
-                            <div className="Derivative-Closer-Look-item-footer">
-                                <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
-                                <img src="../images/questionicon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="Derivative-Closer-Look-item">
-                            <p className="Derivative-Closer-Look-item-title">C7 Engagement Score</p>
-                            <p className="Derivative-Closer-Look-item-text">22</p>
-
-                            <div className="Derivative-Closer-Look-item-footer">
-                                <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
-                                <img src="../images/questionicon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="Derivative-Closer-Look-item">
-                            <p className="Derivative-Closer-Look-item-title">CTR</p>
-                            <p className="Derivative-Closer-Look-item-text">1.4%</p>
-
-                            <div className="Derivative-Closer-Look-item-footer">
-                                <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
-                                <img src="../images/questionicon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="Derivative-Closer-Look-item">
-                            <p className="Derivative-Closer-Look-item-title">Shares per Reach</p>
-                            <p className="Derivative-Closer-Look-item-text">14</p>
-
-                            <div className="Derivative-Closer-Look-item-footer">
-                                <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
-                                <img src="../images/questionicon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="Derivative-Closer-Look-item">
-                            <p className="Derivative-Closer-Look-item-title">C7 Engagement Score</p>
-                            <p className="Derivative-Closer-Look-item-text">54</p>
-
-                            <div className="Derivative-Closer-Look-item-footer">
-                                <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
-                                <img src="../images/questionicon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="Derivative-Closer-Look-item">
-                            <p className="Derivative-Closer-Look-item-title">CTR</p>
-                            <p className="Derivative-Closer-Look-item-text">2.2%</p>
-
-                            <div className="Derivative-Closer-Look-item-footer">
-                                <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
-                                <img src="../images/questionicon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="Derivative-Closer-Look-item">
-                            <p className="Derivative-Closer-Look-item-title">Shares per Reach</p>
-                            <p className="Derivative-Closer-Look-item-text">15</p>
-
-                            <div className="Derivative-Closer-Look-item-footer">
-                                <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
-                                <img src="../images/questionicon.png" alt="" />
-                            </div>
-                        </div>
-                        <div className="Derivative-Closer-Look-item">
-                            <p className="Derivative-Closer-Look-item-title">C7 Engagement Score</p>
-                            <p className="Derivative-Closer-Look-item-text">74</p>
-
-                            <div className="Derivative-Closer-Look-item-footer">
-                                <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
-                                <img src="../images/questionicon.png" alt="" />
-                            </div>
-                        </div>
+                    <div>
+                        <div style={{ textAlign: 'center', color: 'black', fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>*Engagement graph over time <br /> (likes, shares, saves, comments)*</div>
                     </div>
-                    <div className="Derivative-Closer-Look-right-footer">
 
-                        <button >
-                            <div >See All Metrics</div>
+                    <div>
+                        <button className="Performia-container-footer-content-button">
+                            Unlock next steps for improving engagment
                         </button>
-                        <p className="Derivative-Closer-Look-right-footer-text">Likes, comments, follows etc.</p>
+
+                        <p className="Performia-container-footer-content-text">
+                            Get granular data to make informed decisions
+                        </p>
                     </div>
+
+
                 </div>
             </div>
 
-            <div className="Derivative-Engagement">
-                <div className="Derivative-left-sidebar">
-                    <div className="Derivative-left-sidebar-bar" style={{ background: "#000000" }} />
-                    <p className="Derivative-left-sidebar-title">Engagement</p>
-                    <p className="Derivative-left-sidebar-text">The pulse of your audience’s interactions.</p>
-                </div>
 
-                <div className="Derivative-Engagement-right">
-                    <div className="Derivative-Engagement-graph">
-                        <CustomBarChart />
+
+            <div className=" ReflectionPostAnalysisGrowthFocus-second-section ">
+                <div className="ReflectionPostAnalysisGrowthFocus-second-section-left">
+
+                    <div className=" ">
+                        <div className="HorizonPostAnalyser3-left-sidebar-bar" style={{ background: "#4FC74C" }} />
+                        <p className="HorizonPostAnalyser3-left-sidebar-title">Engagement</p>
+                        <p className="HorizonPostAnalyser3-left-sidebar-text">See what’s driving your audience interactions.</p>
                     </div>
-                    <div className="Derivative-Engagement-posts">
-                        <div className="Derivative-Engagement-posts-post">
-                            <p className="Derivative-Engagement-posts-post-title">Most Engaged Post</p>
-                            <p className="Derivative-Engagement-posts-post-text">Post 1</p>
-                            <div className="Derivative-Engagement-post-footer">
+                </div>
+                <div className="HorizonPostAnalyser3-Engagement-right">
+                    <div className="ReflectionPostAnalysisGrowthFocus-Engagement-graph">
+                        <BarChart />
+                    </div>
+                    <div className="HorizonPostAnalyser3-Engagement-posts">
+                        <div className="HorizonPostAnalyser3-Engagement-posts-post">
+                            <p className="HorizonPostAnalyser3-Engagement-posts-post-title">Most Improved Metric</p>
+                            <p className="HorizonPostAnalyser3-Engagement-posts-post-text">Like</p>
+                            <div className="HorizonPostAnalyser3-Engagement-post-footer">
                                 <img src="../images/questionicon.png" alt="" />
                             </div>
                         </div>
-                        <div className="Derivative-Engagement-posts-post">
-                            <p className="Derivative-Engagement-posts-post-title">Most Engaged Post</p>
-                            <p className="Derivative-Engagement-posts-post-text">Post 1</p>
-                            <div className="Derivative-Engagement-post-footer">
+                        <div className="HorizonPostAnalyser3-Engagement-posts-post">
+                            <p className="HorizonPostAnalyser3-Engagement-posts-post-title">Weakest Metric</p>
+                            <p className="HorizonPostAnalyser3-Engagement-posts-post-text">Reach</p>
+                            <div className="HorizonPostAnalyser3-Engagement-post-footer">
                                 <img src="../images/questionicon.png" alt="" />
                             </div>
                         </div>
                     </div>
-                    <div className="Derivative-Engagement-footer">
-                        <div className="Derivative-Engagement-footer-top">
+                    <div className="HorizonPostAnalyser3-Engagement-footer">
+                        <div className="HorizonPostAnalyser3-Engagement-footer-top">
                             <img src="../images/brainblack.png" alt="" />
                             <p>C7.AI</p>
                         </div>
-                        <p className="Derivative-Engagement-footer-title">You are increasing in Followers, you are half way to maximizing your engagment</p>
+                        <p className="HorizonPostAnalyser3-Engagement-footer-title">You are increasing in Followers, you are half way to maximizing your engagment</p>
                     </div>
                 </div>
             </div>
 
-            <div className="Derivative-Audience">
-                <div className="Derivative-left-sidebar">
-                    <div className="Derivative-left-sidebar-bar" style={{ background: "#6941BF" }} />
-                    <p className="Derivative-left-sidebar-title">Audience</p>
-                    <p className="Derivative-left-sidebar-text">Get closer to those who matter most.</p>
-                </div>
 
-                <div className="Derivative-Audience-right">
-                    <div className="Derivative-Audience-graph">
-                        <p className="Derivative-Audience-graph-title">Stacked graph of followers vs non.</p>
-                        <StackedHorizontalBarChart />
+
+
+            <div className=" ReflectionPostAnalysisGrowthFocus-second-section ">
+                <div className="ReflectionPostAnalysisGrowthFocus-second-section-left">
+
+                    <div className=" ">
+                        <div className="HorizonPostAnalyser3-left-sidebar-bar" style={{ background: "#000000" }} />
+                        <p className="HorizonPostAnalyser3-left-sidebar-title">Audience</p>
+                        <p className="HorizonPostAnalyser3-left-sidebar-text">Find out who’s connecting with your content.</p>
                     </div>
+                </div>
+                <div className="HorizonPostAnalyser3-Engagement-right Derivative-Engagement-right">
+                    <div className="ReflectionPostAnalysisGrowthFocus-Engagement-graph">
+                        <StackedBarChartAudience />
+                    </div>
+                    <div className="HorizonPostAnalyser3-Engagement-posts">
+                        <div className="Derivative-Closer-Look-container Derivative-Closer-Look-container-audience">
 
-                    <div className="Derivative-Audience-footer">
-                        <div className="Derivative-Audience-footer-top">
+
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">Shares per Reach</p>
+                                <p className="Derivative-Closer-Look-item-text">43</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">C7 Engagement Score</p>
+                                <p className="Derivative-Closer-Look-item-text">22</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">CTR</p>
+                                <p className="Derivative-Closer-Look-item-text">1.4%</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">Shares per Reach</p>
+                                <p className="Derivative-Closer-Look-item-text">14</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div className="HorizonPostAnalyser3-Engagement-footer">
+                        <div className="HorizonPostAnalyser3-Engagement-footer-top">
                             <img src="../images/brainblack.png" alt="" />
                             <p>C7.AI</p>
                         </div>
-                        <p className="Derivative-Audience-footer-title">Post 2 seems to have best thumbnail overall, and post 3 the weakest for your target audience.</p>
+                        <p className="HorizonPostAnalyser3-Engagement-footer-title">You are <span style={{ color: "#0B66FF" }}>4%</span> away from hitting your all time highest non follower reach.Ride this wave and create another hit.</p>
                     </div>
                 </div>
             </div>
 
-            <div className="Derivative-Demographic">
-                <div className="Derivative-left-sidebar">
-                    <div className="Derivative-left-sidebar-bar" style={{ background: "#4FC74C" }} />
-                    <p className="Derivative-left-sidebar-title">Demographic</p>
-                    <p className="Derivative-left-sidebar-text">Understand who’s watching and why it matters.</p>
+
+
+
+
+
+
+            <div className=" ReflectionPostAnalysisGrowthFocus-second-section ">
+                <div className="ReflectionPostAnalysisGrowthFocus-second-section-left">
+
+                    <div className=" ">
+                        <div className="HorizonPostAnalyser3-left-sidebar-bar" style={{ background: "#FECA66" }} />
+                        <p className="HorizonPostAnalyser3-left-sidebar-title">Demographic</p>
+                        <p className="HorizonPostAnalyser3-left-sidebar-text">Explore how your audience profile shifts over time.</p>
+                    </div>
                 </div>
-
-                <div className="Derivative-demographic-right">
-                    <div className="Derivative-demographic-right-container">
-                        <div className="Derivative-demographic-card">
-                            <p className="Derivative-demographic-card-title">C7 Alignment Score</p>
-                            <div className="Derivative-demographic-card-middle">
-                                <p className="Derivative-demographic-card-score">45%</p>
-                                <p className="Derivative-demographic-card-trend up">▲</p>
-                            </div>
-                            <img
-                                className="Derivative-demographic-card-icon"
-                                src="../images/questionicon.png"
-                                alt="info-icon"
+                <div className="HorizonPostAnalyser3-Engagement-right Derivative-Engagement-right">
+                    <div className="ReflectionPostAnalysisGrowthFocus-Demographic-graph">
+                        <div style={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}>
+                            <PieChartComponent
+                                title="Piechart of audience gender"
+                                data={genderData}
+                                colors={colorsGender}
                             />
-                        </div>
-
-                        <div className="Derivative-demographic-card">
-                            <p className="Derivative-demographic-card-title">Most Engaged Sex</p>
-                            <div className="Derivative-demographic-card-middle">
-                                <p className="Derivative-demographic-card-value">M</p>
-                                <p className="Derivative-demographic-card-trend down">▼</p>
-                            </div>
-                            <img
-                                className="Derivative-demographic-card-icon"
-                                src="../images/questionicon.png"
-                                alt="info-icon"
+                            <PieChartComponent
+                                title="Piechart of audience gender"
+                                data={genderData}
+                                colors={colorsGender}
                             />
-                        </div>
-
-                        <div className="Derivative-demographic-card">
-                            <p className="Derivative-demographic-card-title">Most Engaged Age</p>
-                            <div className="Derivative-demographic-card-middle">
-                                <p className="Derivative-demographic-card-value">18-30</p>
-                            </div>
-                            <img
-                                className="Derivative-demographic-card-icon"
-                                src="../images/questionicon.png"
-                                alt="info-icon"
+                            <PieChartComponent
+                                title="Piechart of audience age"
+                                data={ageData}
+                                colors={colorsAge}
+                            />
+                            <PieChartComponent
+                                title="Piechart of audience gender"
+                                data={genderData}
+                                colors={colorsAge}
                             />
                         </div>
                     </div>
-                    <div className="Derivative-demographic-right-container">
-                        <div className="Derivative-demographic-card">
-                            <p className="Derivative-demographic-card-title">C7 Alignment Score</p>
-                            <div className="Derivative-demographic-card-middle">
-                                <p className="Derivative-demographic-card-score">45%</p>
-                                <p className="Derivative-demographic-card-trend up">▲</p>
-                            </div>
-                            <img
-                                className="Derivative-demographic-card-icon"
-                                src="../images/questionicon.png"
-                                alt="info-icon"
-                            />
-                        </div>
 
-                        <div className="Derivative-demographic-card">
-                            <p className="Derivative-demographic-card-title">Most Engaged Sex</p>
-                            <div className="Derivative-demographic-card-middle">
-                                <p className="Derivative-demographic-card-value">M</p>
-                                <p className="Derivative-demographic-card-trend down">▼</p>
-                            </div>
-                            <img
-                                className="Derivative-demographic-card-icon"
-                                src="../images/questionicon.png"
-                                alt="info-icon"
-                            />
+                    <div className="HorizonPostAnalyser3-Engagement-footer">
+                        <div className="HorizonPostAnalyser3-Engagement-footer-top">
+                            <img src="../images/brainblack.png" alt="" />
+                            <p>C7.AI</p>
                         </div>
-
-                        <div className="Derivative-demographic-card">
-                            <p className="Derivative-demographic-card-title">Most Engaged Age</p>
-                            <div className="Derivative-demographic-card-middle">
-                                <p className="Derivative-demographic-card-value">18-30</p>
-                            </div>
-                            <img
-                                className="Derivative-demographic-card-icon"
-                                src="../images/questionicon.png"
-                                alt="info-icon"
-                            />
-                        </div>
-                    </div>
-                    <div className="Derivative-demographic-right-container">
-                        <div className="Derivative-demographic-card">
-                            <p className="Derivative-demographic-card-title">C7 Alignment Score</p>
-                            <div className="Derivative-demographic-card-middle">
-                                <p className="Derivative-demographic-card-score">45%</p>
-                                <p className="Derivative-demographic-card-trend up">▲</p>
-                            </div>
-                            <img
-                                className="Derivative-demographic-card-icon"
-                                src="../images/questionicon.png"
-                                alt="info-icon"
-                            />
-                        </div>
-
-                        <div className="Derivative-demographic-card">
-                            <p className="Derivative-demographic-card-title">Most Engaged Sex</p>
-                            <div className="Derivative-demographic-card-middle">
-                                <p className="Derivative-demographic-card-value">M</p>
-                                <p className="Derivative-demographic-card-trend down">▼</p>
-                            </div>
-                            <img
-                                className="Derivative-demographic-card-icon"
-                                src="../images/questionicon.png"
-                                alt="info-icon"
-                            />
-                        </div>
-
-                        <div className="Derivative-demographic-card">
-                            <p className="Derivative-demographic-card-title">Most Engaged Age</p>
-                            <div className="Derivative-demographic-card-middle">
-                                <p className="Derivative-demographic-card-value">18-30</p>
-                            </div>
-                            <img
-                                className="Derivative-demographic-card-icon"
-                                src="../images/questionicon.png"
-                                alt="info-icon"
-                            />
-                        </div>
+                        <p className="HorizonPostAnalyser3-Engagement-footer-title">You are nailing your desired audience, well done!</p>
                     </div>
                 </div>
             </div>
+
+
+
+
+            <div className="ReflectionPostAnalysisGrowthFocus-second-section">
+                <div className="ReflectionPostAnalysisGrowthFocus-second-section-left">
+                    <div className=" ">
+                        <div className="HorizonPostAnalyser3-left-sidebar-bar" style={{ background: "#6941BF" }} />
+                        <p className="HorizonPostAnalyser3-left-sidebar-title">Actions</p>
+                        <p className="HorizonPostAnalyser3-left-sidebar-text">Focus on the behaviours that move the needle.</p>
+                    </div>
+                </div>
+                <div className="HorizonPostAnalyser3-Engagement-right Derivative-Engagement-right">
+                    <div className="ReflectionPostAnalysisGrowthFocus-Actions-graph">
+                        <StackedBarChart />
+                    </div>
+                    <div className="Derivative-Closer-Look-container Derivative-Closer-Look-container-actions">
+                        <div className="Derivative-Closer-Look-container-left">
+                            <p className="Derivative-Closer-Look-container-left-title">Now</p>
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">Profile Visits</p>
+                                <p className="Derivative-Closer-Look-item-text">M</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">Follows</p>
+                                <p className="Derivative-Closer-Look-item-text">14</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">External Link Clicks</p>
+                                <p className="Derivative-Closer-Look-item-text">3%</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="Derivative-Closer-Look-container-right">
+                            <p className="Derivative-Closer-Look-container-right-title">Previous</p>
+
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">Profile Visits</p>
+                                <p className="Derivative-Closer-Look-item-text">M</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">Follows</p>
+                                <p className="Derivative-Closer-Look-item-text">14</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+                            <div className="Derivative-Closer-Look-item">
+                                <p className="Derivative-Closer-Look-item-title">External Link Clicks</p>
+                                <p className="Derivative-Closer-Look-item-text">3%</p>
+
+                                <div className="Derivative-Closer-Look-item-footer">
+                                    <p className="Derivative-Closer-Look-item-footer-title">Show more</p>
+                                    <img src="../images/questionicon.png" alt="" />
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div className="HorizonPostAnalyser3-Engagement-footer">
+                        <div className="HorizonPostAnalyser3-Engagement-footer-top">
+                            <img src="../images/brainblack.png" alt="" />
+                            <p>C7.AI</p>
+                        </div>
+                        <p className="HorizonPostAnalyser3-Engagement-footer-title">Your content has intrigued users to visit your link (13.5%).Excellent work.</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+ 
 
             <div className="Derivative-Next-Steps-for-Growth">
                 <div className="Derivative-left-sidebar">

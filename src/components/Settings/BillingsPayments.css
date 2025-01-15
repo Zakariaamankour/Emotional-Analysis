@@ -138,3 +138,23 @@
     right: 20px;
     cursor: pointer;
 }
+
+
+@media(max-width:767px){
+    .BillingsPayments-title-left{
+        flex-wrap:wrap;
+        gap:20px
+    }
+
+    .BillingsPayments-container{
+        width: auto;
+    }
+
+    .BillingsPayments-container-up, .BillingsPayments-container-down{
+        gap: 20px;
+    }
+
+    .BillingsPayments-container-link,.BillingsPayments-container-socialName{
+        font-size: 15px;
+    }
+}

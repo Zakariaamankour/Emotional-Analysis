@@ -191,3 +191,38 @@
     right: 20px;
     cursor: pointer;
 }
+
+
+@media(max-width:767px){
+    .CompetitorTrackingSetting-title-left{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .CompetitorTrackingSetting-container{
+        width: auto;
+    }
+
+    .CompetitorTrackingSetting-container-socialName,.CompetitorTrackingSetting-container-link{
+        font-size: 15px;
+
+    }
+
+    .CompetitorTrackingSetting-container-up, .CompetitorTrackingSetting-container-down{
+        gap: 20px;
+    }
+    .CompetitorTrackingSetting-container-live-insights{
+        text-align: center;
+    }
+
+    .CompetitorTrackingSetting-container-down{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .CompetitorTrackingSetting-container-down p{
+        text-align: center;
+    }
+}

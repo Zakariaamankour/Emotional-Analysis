@@ -193,3 +193,10 @@ body.fixed {
 .menu-container-mobile.close {
     display: none;
 }
+
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}

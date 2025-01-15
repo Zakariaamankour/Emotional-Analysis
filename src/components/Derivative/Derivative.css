@@ -150,7 +150,7 @@
 }
 
 .ring {
- 
+
     font-size: 24px;
     font-family: Lato;
     font-weight: 700;
@@ -279,6 +279,15 @@
     width: 80%;
     margin: 120px auto;
 }
+
+.Derivative-Snapshot {
+    gap: 100px;
+}
+
+.Derivative-Snapshot .Derivative-demographic-right {
+    gap: 100px;
+}
+
 
 .Derivative-Comparison-right {
     width: 851px;
@@ -858,4 +867,82 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.Derivative-demographic-right-left {
+    background: rgba(166, 218, 255, 0.33)
+}
+
+
+.Derivative-demographic-right-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Derivative-demographic-right-button button {
+    padding: 10px;
+    background: #0070FF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: 1px #0070FF solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 137px;
+}
+
+.Derivative-demographic-right-button p {
+    margin: 0;
+    color: #0070FF;
+    font-size: 12px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word
+}
+
+
+.Derivative-Closer-Look-container-audience {
+    height: 300px;
+    gap: 30px;
+}
+
+
+.Derivative-Engagement-right {
+    height: auto;
+    padding: 20px 0;
+}
+
+.Derivative-Closer-Look-container-left-title,
+.Derivative-Closer-Look-container-right-title {
+    margin: 5px 0;
+    color: black;
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.Derivative-Closer-Look-container-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.Derivative-Closer-Look-container-left,.Derivative-Closer-Look-container-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
