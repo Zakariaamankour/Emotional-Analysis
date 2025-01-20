@@ -231,6 +231,77 @@
     word-wrap: break-word
 }
 
-.Faq-answers-item-answer ul:not(.answers-number) li{
+.Faq-answers-item-answer ul:not(.answers-number) li {
     list-style-type: disc;
+}
+
+
+/* Mobile Optimization Styles */
+@media (max-width: 768px) {
+    .Faqs-header {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        gap: 10px;
+    }
+
+    .Faqs-header-right {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 30%;
+        gap: 0px;
+        margin: auto;
+    }
+
+    .Faqs-header-right-button-light,
+    .Faqs-header-right-button-blue {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Faqs-main {
+        flex-direction: column;
+    }
+
+    .faq-categories {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .Faq-answers {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .Faq-answers-item {
+        width: 100%;
+    }
+
+    .Faqs-header-left-text {
+        width: 100%;
+    }
+
+    .faq-title {
+        font-size: 14px;
+    }
+
+    .faq-items {
+        font-size: 12px;
+    }
+
+    .Faq-answers-item-title {
+        font-size: 18px;
+    }
+
+    .Faq-answers-item-question {
+        font-size: 12px;
+    }
+
+    .Faq-answers-item-answer {
+        font-size: 10px;
+    }
+
+
 }

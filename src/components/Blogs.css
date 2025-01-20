@@ -162,7 +162,7 @@
 
 .Blogs-items {
     list-style-type: disc;
-     margin: 10px 0 0 10px;
+    margin: 10px 0 0 10px;
     /* Indent items slightly */
     color: #242424;
     font-size: 14px;
@@ -231,6 +231,78 @@
     word-wrap: break-word
 }
 
-.Blogs-answers-item-answer ul:not(.answers-number) li{
+.Blogs-answers-item-answer ul:not(.answers-number) li {
     list-style-type: disc;
+}
+
+
+
+/* Mobile Optimization Styles */
+@media (max-width: 768px) {
+    .Blogs-header {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 90%;
+        gap: 30px;
+    }
+
+    .Blogs-header-right {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 40%;
+        margin: auto;
+        gap: 0;
+
+    }
+
+    .Blogs-header-right-button-light,
+    .Blogs-header-right-button-blue {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Blogs-main {
+        flex-direction: column;
+    }
+
+    .Blogs-categories {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .Blogs-answers {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        height: 500px;
+    }
+
+    .Blogs-answers-item {
+        width: 100%;
+    }
+
+    .Blogs-header-left-text {
+        width: 100%;
+    }
+
+    .Blogs-title {
+        font-size: 14px;
+    }
+
+    .Blogs-items {
+        font-size: 12px;
+    }
+
+    .Blogs-answers-item-title {
+        font-size: 18px;
+    }
+
+    .Blogs-answers-item-question {
+        font-size: 12px;
+    }
+
+    .Blogs-answers-item-answer {
+        font-size: 10px;
+    }
 }

@@ -274,3 +274,112 @@
     border: 1px #E5E5E5 solid;
     height: 626px;
 }
+
+
+
+
+/* Mobile Optimization Styles */
+@media (max-width: 768px) {
+    .Performia-container {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .Performia {
+        width: 100%;
+    }
+
+    .Performia-header-title {
+        font-size: 24px;
+    }
+
+    .Performia-header-text {
+        font-size: 16px;
+    }
+
+    .Performia-top-button-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .Performia-top-button-container-button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .Performia-top-button-container-text {
+        font-size: 14px;
+    }
+
+    .Performia-enlarge-title {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    .Performia-container-footer-header {
+        width: 90%;
+        gap: 10px;
+    }
+
+    .Performia-container-footer-header-title {
+        font-size: 24px;
+    }
+
+    .Performia-container-footer-header-texte {
+        font-size: 16px;
+    }
+
+    .Performia-container-footer-header-image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Performia-container-footer-header-image-container img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Performia-container-footer-header-image-container p {
+        font-size: 12px;
+    }
+
+    .Performia-container-footer-content {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .Performia-container-footer-content-button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .Performia-container-footer-content-text {
+        font-size: 14px;
+    }
+
+    .Performia-container-footer {
+        height: auto;
+        padding: 20px;
+    }
+
+
+    .heatmap {
+        overflow: scroll;
+    }
+
+
+    .heatmap-image-title {
+        flex-direction: column !important;
+        gap: 0px !important;
+    }
+
+    .metric-buttons {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        gap: 20px !important;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}

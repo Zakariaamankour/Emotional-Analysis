@@ -28,29 +28,41 @@ const VideosSlider = () => {
     };
 
     const items = [
-        { title: "Playbook", footer: "Favourite Tool", id: 1 },
-        { title: "Dashboard", footer: "Analytics Tool", id: 2 },
-        { title: "Insights", footer: "Visual Reports", id: 3 },
-        { title: "Trends", footer: "Market Data", id: 4 },
-        { title: "Horizon", footer: "Feedback System", id: 5 },
-        { title: "Performia", footer: "Performance Analysis", id: 6 },
-        { title: "Audience", footer: "Persona Builder", id: 7 },
+        { title: "Emotional Analysis", footer: "Favourite Tool", id: 1,key:"Engagement rate",value:"+30%" },
+        { title: "Playbook", footer: "Favourite Tool", id: 2,key:"Likes per Reach",value:"+14%" },
+        { title: "Audience Persona", footer: "Favourite Tool", id: 3,key:"Audience Reached",value:"NEW" },
+        { title: "Performia", footer: "Favourite Tool", id: 4,key:"Non-Follower Reach",value:"+23%" },
+        { title: "a/b testing", footer: "Favourite Tool", id: 5,key:"Message Reach Outs",value:"+17" },
+        { title: "Competitor Tracker", footer: "Favourite Tool", id: 6,key:"Post Scheduling Pattern",value:"NEW" },
+        { title: "Bio Optimise", footer: "Favourite Tool", id: 7,key:"External Link CTR",value:"+6.5%" },
     ];
 
     return (
         <div className="slider-container">
             <Slider {...settings}>
                 {items.map((item) => (
-                    <div className="slider-items-item" key={item.id}>
-                        <div className="slider-items-item-header">
-                            <p className="slider-items-item-header-title">@username / Brand</p>
-                            <p className="slider-items-item-header-subtitle">Logo</p>
+                    <>
+
+                        <div className="slider-items-item" key={item.id}>
+                            <div className="slider-items-item-header">
+                                <p className="slider-items-item-header-title">@username / Brand</p>
+                                <p className="slider-items-item-header-subtitle">Logo</p>
+                            </div>
+                            <div className="slider-items-item-footer">
+                                <p className="slider-items-item-footer-title">{item.title}</p>
+                                <p className="slider-items-item-footer-subtitle">{item.footer}</p>
+                            </div>
                         </div>
-                        <div className="slider-items-item-footer">
-                            <p className="slider-items-item-footer-title">{item.title}</p>
-                            <p className="slider-items-item-footer-subtitle">{item.footer}</p>
+
+                        <div className="slider-items"  >
+                            <div style={{ width: '313px', textAlign: "center" }}>
+                                <div style={{ textAlign: 'center', color: '#86868B', fontSize: 12, fontFamily: 'Lato', fontWeight: 400, wordWrap: 'break-word' }}>{item.key}</div>
+                                <div style={{ color: '#0070FF', fontSize: 24, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>{item.value}</div>
+                            </div>
+                            
+
                         </div>
-                    </div>
+                    </>
                 ))}
             </Slider>
         </div>

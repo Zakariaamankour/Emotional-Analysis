@@ -2,6 +2,7 @@
     background-color: #242424;
     font-family: 'Montserrat';
     position: relative;
+    height: 33px;
 }
 
 .header .items {
@@ -11,7 +12,7 @@
     gap: 0;
     align-items: center;
     margin: auto;
-    padding: 10px 0;
+    height: 100%;
 
 }
 
@@ -32,7 +33,7 @@
 }
 
 .header .item .logo {
-    width: 30px;
+    width: 20px;
 }
 
 .header .item img {
@@ -43,7 +44,7 @@
 /* Submenu Styles */
 .submenu {
     position: absolute;
-    top: 50px;
+    top: 32px;
     /* Fixed below header */
     left: 0;
     width: 100%;
@@ -138,6 +139,14 @@ ul.subitems li a {
 .menu-container-mobile {
     background-color: white;
     padding-top: 30px;
+    position: relative;
+}
+
+.close-icon-mobile {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 25px;
 }
 
 .mobile-menu-item {
@@ -183,12 +192,11 @@ body.fixed {
 
 .menu-container-mobile.open {
     position: fixed;
- 
     left: 0;
     width: 100%;
     height: 100%;
     z-index: 1000;
- }
+}
 
 .menu-container-mobile.close {
     display: none;
@@ -196,7 +204,7 @@ body.fixed {
 
 
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }

@@ -460,7 +460,8 @@
     border: 1px #E5E5E5 solid
 }
 
-.ab-testing-steps-container-step3-left,.ab-testing-steps-container-step3-right{
+.ab-testing-steps-container-step3-left,
+.ab-testing-steps-container-step3-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -539,7 +540,7 @@
 }
 
 
-.ab-testing-steps-container-step3-container{
+.ab-testing-steps-container-step3-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -547,6 +548,173 @@
     gap: 50px;
 }
 
-button{
+button {
     cursor: pointer;
+}
+
+
+
+
+/* Mobile Optimization Styles */
+@media (max-width: 768px) {
+    .ab-testing-steps-container-header {
+        width: 90%;
+        padding: 10px 0;
+    }
+
+    .ab-testing-steps-container-header-title {
+        font-size: 24px;
+    }
+
+    .ab-testing-steps-container-header-text {
+        font-size: 16px;
+    }
+
+    .ab-testing-steps-container-steps-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 70%;
+    }
+
+    .ab-testing-steps-container-steps-top-left {
+        width: 90%;
+        height: auto;
+    }
+
+    .ab-testing-steps-current-picture-title {
+        font-size: 14px;
+        width: 45%;
+    }
+
+    .ab-testing-steps-current-picture {
+        width: 80px;
+        height: 80px;
+
+    }
+
+    .ab-testing-steps-container-steps-top-right-top {
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+    }
+    .ab-testing-steps-container-steps-top-right{
+        width:90%
+    }
+
+    .ab-testing-steps-container-steps-top-right-top-left,
+    .ab-testing-steps-container-steps-top-right-top-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .ab-testing-steps-current-name-title,
+    .ab-testing-steps-current-bio-title {
+        font-size: 14px;
+    }
+
+    .ab-testing-steps-current-name,
+    .ab-testing-steps-current-bio {
+        font-size: 18px;
+    }
+
+    .ab-testing-steps-container-steps-top-right-bottom {
+        width: 90%;
+        height: auto;
+    }
+
+    .ab-testing-steps-container-steps-bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .ab-testing-steps-container-steps-bottom-left {
+        gap: 20px;
+    }
+
+    .ab-testing-steps-container-steps-bottom-left-title {
+        font-size: 18px;
+    }
+
+    .ab-testing-steps-container-steps-bottom-left-button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .ab-testing-steps-container-steps-bottom-left-step-number {
+        font-size: 14px;
+    }
+
+    .ab-testing-steps-container-steps-bottom-right {
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+
+    .ab-testing-steps-container-steps-test-name {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .ab-testing-steps-current-name-edit,
+    .ab-testing-steps-current-bio-edit,
+    .ab-testing-steps-current-Category-edit,
+    .ab-testing-steps-current-music-edit,
+    .ab-testing-steps-current-Button-edit,
+    .ab-testing-steps-current-Pronouns-edit {
+        font-size: 18px;
+    }
+
+    .ab-testing-steps-container-step3-button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .ab-testing-steps-container-step3-step-number {
+        font-size: 14px;
+    }
+
+    .ab-testing-steps-container-step3-title {
+        font-size: 24px;
+    }
+
+    .ab-testing-steps-container-step3-left-title,
+    .ab-testing-steps-container-step3-right-title {
+        font-size: 24px;
+    }
+
+    .ab-testing-steps-container-step3-left-title span,
+    .ab-testing-steps-container-step3-right-title span {
+        font-size: 24px;
+    }
+
+    .ab-testing-steps-container-step3-left-Current-Picture-container,
+    .ab-testing-steps-container-step3-right-Current-Picture-container {
+        width: 90%;
+        height: auto;
+    }
+
+    .ab-testing-steps-container-step3-left-Current-Picture-value,
+    .ab-testing-steps-container-step3-right-Current-Picture-value {
+        width: 100px;
+        height: 100px;
+    }
+
+    .ab-testing-steps-container-step3-left-item,
+    .ab-testing-steps-container-step3-right-item {
+        width: 90%;
+        height: auto;
+    }
+
+    .ab-testing-steps-container-step3-left-Current-Bio-item,
+    .ab-testing-steps-container-step3-right-Current-Bio-item {
+        width: 90%;
+        height: auto;
+    }
+
+    .ab-testing-steps-container-step3-container {
+        flex-direction: column;
+        gap: 20px;
+    }
 }

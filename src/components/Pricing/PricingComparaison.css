@@ -375,3 +375,121 @@
     width: 163px;
 
 }
+
+
+
+/* Mobile Optimization Styles */
+@media (max-width: 768px) {
+    .PricingComparaison {
+        width: 90%;
+    }
+
+    .PricingComparaison-header-title {
+        font-size: 32px;
+    }
+
+    .PricingComparaison-header-text {
+        font-size: 16px;
+    }
+
+    .PricingComparaison-items-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .PricingComparaison-container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .PricingComparaison-items {
+        width: 100%;
+        height: auto;
+        gap: 20px;
+    }
+
+    .PricingComparaison-items-header {
+        width: auto;
+        padding: 10px;
+    }
+
+    .PricingComparaison-items-Elevate-header-title {
+        font-size: 24px;
+    }
+
+    .PricingComparaison-items-Elevate-header-text {
+        font-size: 10px;
+    }
+
+    .PricingComparaison-items-number {
+        font-size: 32px;
+    }
+
+    .PricingComparaison-items-text-elements p {
+        font-size: 12px;
+        line-height: 30px;
+    }
+
+    .PricingComparaison-items-live {
+        font-size: 24px;
+    }
+
+    .PricingComparaison-items-focus {
+        font-size: 24px;
+    }
+
+    .PricingComparaison-items-mode {
+        font-size: 24px;
+    }
+
+    .PricingComparaison-icon {
+        font-size: 36px;
+    }
+
+    .PricingComparaison-items-brainicon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .PricingComparaison-container-pricing {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .PricingComparaison-container-pricing-title {
+        font-size: 14px;
+    }
+
+    .PricingComparaison-container-pricing-text {
+        font-size: 14px;
+    }
+
+    .PricingComparaison-container-text-features {
+        font-size: 10px;
+    }
+
+    .PricingComparaison-container-button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .PricingComparaison-footer {
+        gap: 10px;
+    }
+
+    .PricingComparaison-footer-button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .PricingComparaison-footer-button-container-light,
+    .PricingComparaison-footer-button-container-blue {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .PricingComparaison-footer p {
+        font-size: 10px;
+    }
+}

@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import './Header.css';
 import { Link } from "react-router-dom";
+import { IoIosCloseCircleOutline } from "react-icons/io";
 
 const Header = () => {
     const [activeMenu, setActiveMenu] = useState(null); // Tracks the active menu
@@ -120,7 +121,7 @@ const Header = () => {
     const toggleSubmenu = (index) => {
         setActiveSubmenu(activeSubmenu === index ? null : index);
     };
-   
+
     return (
         <div className="header">
             <div className="items">
@@ -201,10 +202,20 @@ const Header = () => {
             {/* Menu Mobile */}
 
             <div className={`menu-container-mobile ${mobileMenuOpen ? 'open' : 'close'}`}>
+                <IoIosCloseCircleOutline className="close-icon-mobile" onClick={()=>{setMobileMenuOpen(!mobileMenuOpen)}}/>
                 {menuItems.map((item, index) => (
                     <div key={index} className="mobile-menu-item">
                         <div style={{ display: "flex", alignItems: "center", gap: "20px" }} onClick={() => toggleMenu(index)}>
-                            <a href="#" className="item-title">{item.title}</a>
+
+                            {
+                                item.link ? (
+                                    <Link to={item.link} className="item-title" onClick={()=>{setMobileMenuOpen(!mobileMenuOpen)}}>
+                                        {item.title}
+                                    </Link>
+                                ) : (
+                                    <a href="#" className="item-title" >{item.title}</a>
+                                )
+                            }
                             {item.submenu.length > 0 && (
                                 <img src="../images/downicon.png" alt="submenu icon" />
                             )}
@@ -224,7 +235,7 @@ const Header = () => {
                                             <ul>
                                                 {sub.items.map((subItem, itemIndex) => (
                                                     <li key={itemIndex}>
-                                                        <a href={subItem.link}>{subItem.name}</a>  
+                                                        <Link to={subItem.link}>{subItem.name}</Link>
                                                     </li>
                                                 ))}
                                             </ul>

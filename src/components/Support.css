@@ -218,3 +218,98 @@
     margin-bottom: 10px;
     margin: 0;
 }
+
+
+
+
+
+
+/* Mobile Optimization Styles */
+@media (max-width: 768px) {
+    .Support {
+        width: 90%;
+    }
+
+    .Support-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .Support-header-right {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 60%;
+        gap: 0;
+        margin: auto;
+    }
+
+    .Support-header-right-button-light,
+    .Support-header-right-button-blue {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .Support-main {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .Support-main-top {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .Support-main-middle {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .Support-main-middle-left,
+    .Support-main-middle-right {
+        width: 100%;
+    }
+
+    .Support-main-middle-right {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        gap: 10px;
+    }
+
+    .Support-main-middle-right textarea {
+        width: 90%;
+        height: 150px;
+    }
+
+    .Support-main-middle-right button {
+        width: 100%;
+    }
+
+    .Support-header-left-text {
+        width: 100%;
+    }
+
+    .Support-main-middle-left-title {
+        font-size: 12px;
+    }
+
+    .Support-main-middle-left-text {
+        font-size: 16px;
+    }
+
+    .Support-main-middle-left select {
+        font-size: 14px;
+    }
+
+    .Support-main-middle-right-title {
+        font-size: 16px;
+    }
+
+    .Support-main-middle-right button {
+        font-size: 14px;
+    }
+}

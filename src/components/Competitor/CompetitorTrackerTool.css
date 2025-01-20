@@ -847,7 +847,9 @@
     position: relative;
 }
 
-.CompetitorTrackerTool3-Post,.CompetitorTrackerTool3-Captions,.CompetitorTrackerTool3-Hashtags {
+.CompetitorTrackerTool3-Post,
+.CompetitorTrackerTool3-Captions,
+.CompetitorTrackerTool3-Hashtags {
     display: flex;
     flex-direction: row;
     margin: 50px auto;
@@ -961,4 +963,479 @@
     border-radius: 14px;
     border: 1px #E5E5E5 solid;
     gap: 10px;
+}
+
+
+
+
+
+/* General Mobile Optimization */
+@media screen and (max-width: 768px) {
+    .CompetitorTrackerTool2-header {
+        flex-direction: column;
+        width: 90%;
+        margin: 20px auto;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .CompetitorTrackerTool2-header-left-title {
+        font-size: 24px;
+    }
+
+    .CompetitorTrackerTool2-header-left-text {
+        font-size: 16px;
+    }
+
+    .CompetitorTrackerTool2-header-right button {
+
+        font-size: 14px;
+    }
+
+    .CompetitorTrackerTool2-items-container {
+        flex-direction: column;
+        width: 80%;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .CompetitorTrackerTool2-item {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .CompetitorTrackerTool2-item-left {
+        width: 100px;
+        height: 100px;
+    }
+
+    .CompetitorTrackerTool2-item-right {
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool2-item-right-title {
+        font-size: 18px;
+    }
+
+    .CompetitorTrackerTool2-item-right-socials {}
+
+    .CompetitorTrackerTool2-item-right-socials-left p,
+    .CompetitorTrackerTool2-item-right-socials-right p {
+        font-size: 16px;
+    }
+
+    .CompetitorTrackerTool2-item-right button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .CompetitorTrackerTool2-item-icon {
+        width: 30px;
+        height: 30px;
+        top: 5px;
+        right: 5px;
+    }
+
+    .CompetitorTrackerTool2-item-last p {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    /* Adjust font sizes and spacing for text-heavy sections */
+    .CompetitorTrackerTool3-first-section-item-top-title,
+    .CompetitorTrackerTool3-first-section-item-top-text {
+        font-size: 14px;
+    }
+
+    .CompetitorTrackerTool3-first-section-item {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-snapshot-container,
+    .CompetitorTrackerTool3-Difference-container {
+        width: 95%;
+        margin: 10px auto;
+        height: auto;
+    }
+
+    .CompetitorTrackerTool3-Difference-container-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .CompetitorTrackerTool3-Difference-container-item-right {
+        text-align: center;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Bio-container {
+        width: 95%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .CompetitorTrackerTool3-Bio-checklist-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .CompetitorTrackerTool3-Post-container,
+    .CompetitorTrackerTool3-Captions-container {
+        width: 95%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .CompetitorTrackerTool3-Captions-container-button button {
+        width: 100%;
+    }
+
+    .CompetitorTrackerTool3-Post-container-items-left {
+        width: 100%;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+
+
+
+/* Mobile Optimization Styles */
+@media (max-width: 768px) {
+    .CompetitorTrackerTool3 {
+        width: 90%;
+        margin: auto;
+     }
+
+     .CompetitorTrackerTool3-Post-container-items{
+        width: 90%;
+        flex-wrap: wrap;
+     }
+
+    .CompetitorTrackerTool2-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool2-header-left-title {
+        font-size: 24px;
+    }
+
+    .CompetitorTrackerTool2-header-left-text {
+        font-size: 16px;
+    }
+
+    .CompetitorTrackerTool2-header-right {
+        width: 100%;
+        align-items: center;
+    }
+
+    .CompetitorTrackerTool2-header-right button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .CompetitorTrackerTool2-header-right p {
+        font-size: 14px;
+    }
+
+    .CompetitorTrackerTool3-first-section {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .CompetitorTrackerTool3-first-section-item {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-first-section-item-top {
+        width: 80%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-first-section-item-top-title {
+        font-size: 16px;
+    }
+
+    .CompetitorTrackerTool3-first-section-item-top-text {
+        font-size: 16px;
+    }
+
+    .CompetitorTrackerTool3-first-section-item-bottom {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-first-section-item-bottom-title {
+        font-size: 16px;
+    }
+
+    .CompetitorTrackerTool3-first-section-item-bottom-text {
+        font-size: 16px;
+    }
+
+    .CompetitorTrackerTool3-snapshot {
+        flex-direction: column;
+        gap: 20px;
+        margin: 40px 0;
+        width: 100%;
+    }
+
+    .Trinity-left-sidebar {
+        width: auto !important;
+        align-items: center;
+    }
+
+    .Trinity-left-sidebar-bar {
+        width: 100px;
+    }
+
+    .Trinity-left-sidebar-title {
+        font-size: 24px;
+    }
+
+    .Trinity-left-sidebar-text {
+        font-size: 16px;
+    }
+
+    .CompetitorTrackerTool3-snapshot-container {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .CompetitorTrackerTool3-snapshot-container-item {
+        width: 90%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-snapshot-container-item-button {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-snapshot-container-item-button button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .CompetitorTrackerTool3-Difference {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .CompetitorTrackerTool3-Difference-container {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .CompetitorTrackerTool3-Difference-container-items {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .CompetitorTrackerTool3-Difference-container-item {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Difference-container-item-right {
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Bio {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .CompetitorTrackerTool3-Bio-container {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .CompetitorTrackerTool3-Bio-checklist-container {
+        width: 90%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Bio-checklist-container-title {
+        font-size: 16px;
+    }
+
+    .CompetitorTrackerTool3-Bio-checklist {
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Bio-checklist-left p,
+    .CompetitorTrackerTool3-Bio-checklist-right p {
+        font-size: 25px;
+    }
+    .CompetitorTrackerTool3-Bio-checklist-right{
+        gap: 5px;
+    }
+
+    .CompetitorTrackerTool3-Bio-keywords {
+        width: 85%;
+        gap: 10px;
+    }
+
+     
+
+    .CompetitorTrackerTool3-Bio-keywords-items {
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Post {
+        flex-direction: column;
+         gap: 20px;
+        width: 100%;
+    }
+
+    .CompetitorTrackerTool3-Post-container {
+        width: 90%;
+        gap: 20px;
+    }
+    .CompetitorTrackerTool3-Post-container-items-right div{
+        width:260px !important;
+        height:260px !important;
+
+    }
+
+    .CompetitorTrackerTool3-Post-container-img {
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Post-container-img img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .CompetitorTrackerTool3-Post-container-img p {
+        font-size: 14px;
+    }
+
+    .CompetitorTrackerTool3-Post-container-items-left {
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Post-container-items-left p {
+        font-size: 14px;
+    }
+
+    .CompetitorTrackerTool3-Post-container-items-right {
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Captions {
+        flex-direction: column;
+         gap: 20px;
+         width: 100%;
+         margin: 0;
+    }
+
+    .CompetitorTrackerTool3-Captions-container {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .CompetitorTrackerTool3-Captions-container-item {
+        width: 90%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Captions-container-button button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .CompetitorTrackerTool3-Hashtags {
+        flex-direction: column;
+         gap: 20px;
+         width:100%;
+         margin: 0;
+    }
+
+    .CompetitorTrackerTool3-Hashtags-container {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .CompetitorTrackerTool3-Hashtags-container-item {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .CompetitorTrackerTool3-Hashtags-container-button button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .Performia-container-footer {
+        width: 90%;
+        gap: 20px;
+    }
+
+    .Performia-container-footer-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Performia-container-footer-header-title {
+        font-size: 22px;
+    }
+
+    .Performia-container-footer-header-texte {
+        font-size: 16px;
+    }
+
+    .Performia-container-footer-header-image-container {
+        gap: 10px;
+    }
+
+    .Performia-container-footer-header-image-container img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .Performia-container-footer-header-image-container p {
+        font-size: 14px;
+    }
+
+    .Performia-container-footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .Performia-container-footer-content-button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .Performia-container-footer-content-text {
+        font-size: 14px;
+    }
+
+
+    .CompetitorTrackerTool3-snapshot-container-item-button-blue{
+        width: 90% !important;
+    }
 }

@@ -931,7 +931,7 @@
     text-align: center;
 }
 
-.Derivative-Closer-Look-container-actions{
+.Derivative-Closer-Look-container-actions {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -939,10 +939,250 @@
     gap: 50px;
 }
 
-.Derivative-Closer-Look-container-left,.Derivative-Closer-Look-container-right{
+.Derivative-Closer-Look-container-left,
+.Derivative-Closer-Look-container-right {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
+}
+
+
+@media(max-width:768px) {
+    .DerivativeStart-subtext {
+        width: auto;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* General Adjustments */
+    .Derivative {
+        padding: 10px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .Derivative-header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .Derivative-header-title {
+        font-size: 28px;
+    }
+
+    .Derivative-header-text {
+        font-size: 14px;
+    }
+
+    .Derivative-header-right {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Derivative-header-right-left button,
+    .Derivative-header-right-right button {
+        width: 100%;
+    }
+
+    .Derivative-header-right-left p,
+    .Derivative-header-right-right p {
+        font-size: 12px;
+    }
+
+    /* Snapshot Section */
+    .Derivative-Snapshot {
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .Derivative-Snapshot .Derivative-left-sidebar {
+        width: 100%;
+        text-align: center;
+    }
+
+    .Derivative-Snapshot .Derivative-demographic-right {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Derivative-demographic-card {
+        width: 100%;
+    }
+
+    /* Comparison Section */
+    .Derivative-Comparison {
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .Derivative-left-sidebar {
+        width: 100%;
+    }
+
+    .Derivative-Comparison-right {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .Derivative-Comparison-right-top {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .Derivative-Comparison-right-top img {
+        width: 20px;
+        height: 20px;
+    }
+
+    /* Engagement Section */
+    .Derivative-Engagement-right {
+        width: 90%;
+     }
+
+    .Derivative-Engagement-posts {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .Derivative-Comparison .ReflectionPostAnalysisGrowthFocus-Comparison-right{
+        width: 100%;
+    }
+
+    .Derivative-Comparison{
+        width: 90%;
+    }
+
+    .Derivative-Engagement-posts-post {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Audience Section */
+    .Derivative-Audience-right {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .Derivative-Audience-graph canvas {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    /* Closer Look Section */
+    .Derivative-Closer-Look-container {
+        flex-direction: row;
+        gap: 15px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .HorizonPostAnalyser3-Comparison-right-top .SpiderGraph {
+        width: 400px !important;
+        height: 400px !important;
+    }
+
+    .Derivative-Closer-Look-item {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .Derivative-Closer-Look-container-actions {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Derivative-Closer-Look-container-left,
+    .Derivative-Closer-Look-container-right {
+        width: 100%;
+        gap: 15px;
+    }
+
+    /* Footer Section */
+    .Derivative-footer {
+        padding: 15px;
+        text-align: center;
+    }
+
+    .Derivative-footer button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    /* Next Steps for Growth */
+    .Derivative-Next-Steps-for-Growth {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Derivative-Next-Steps-for-Growth-container {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .Derivative-Next-Steps-for-Growth-container-left,
+    .Derivative-Next-Steps-for-Growth-container-right {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .Derivative-Next-Steps-for-Growth-container-right-buttons button {
+        width: 100%;
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .Derivative-Next-Steps-for-Growth-container-right-title {
+        font-size: 24px;
+    }
+
+    /* Demographic Cards */
+    .Derivative-demographic-right-container {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .Derivative-demographic-card {
+        width: 90%;
+     }
+
+    .Derivative-demographic-card-title {
+        font-size: 14px;
+    }
+
+    .Derivative-demographic-card-score,
+    .Derivative-demographic-card-value {
+        font-size: 20px;
+    }
+
+    .Derivative-demographic-card-trend {
+        font-size: 14px;
+    }
+
+    .Derivative-demographic-card-icon {
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Charts and Graphs */
+    .Derivative-Audience-graph,
+    .Derivative-Engagement-graph,
+    .ReflectionPostAnalysisGrowthFocus-Actions-graph {
+        width: 100%;
+        height: auto;
+    }
 }

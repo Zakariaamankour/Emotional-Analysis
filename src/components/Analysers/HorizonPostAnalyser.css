@@ -1072,3 +1072,242 @@
     width: auto;
     height: auto;
 }
+
+
+
+
+@media(max-width:678px) {
+
+    .HorizonPostAnalyser2-navigation button,
+    .HorizonPostAnalyser2-navigation button.active {
+        width: 100px;
+        height: 40px;
+    }
+
+    .HorizonPostAnalyser2-navigation {
+        flex-wrap: wrap;
+    }
+
+    .HorizonPostAnalyser2-container-picture {
+        width: 100px;
+        height: 100px;
+    }
+
+    .HorizonPostAnalyser2 {
+        width: 90%;
+    }
+
+    .HorizonPostAnalyser2-container-text {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
+
+
+/* General Mobile Optimization */
+@media screen and (max-width: 768px) {
+
+    /* General Layout Adjustments */
+    .HorizonPostAnalyser3-header,
+    .HorizonPostAnalyser3-Snapshot,
+    .HorizonPostAnalyser3-Comparison,
+    .HorizonPostAnalyser3-Engagement,
+    .HorizonPostAnalyser3-Audience,
+    .HorizonPostAnalyser3-Demographic,
+    .HorizonPostAnalyser3-Next-Steps-for-Growth {
+        width: 90%;
+        margin: 20px auto;
+        flex-direction: column;
+    }
+
+    .HorizonPostAnalyser3-header {
+        gap: 20px;
+    }
+
+    .HorizonPostAnalyser3-header-title {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .HorizonPostAnalyser3-header-button {
+        position: relative;
+        align-self: center;
+        margin-top: 30px;
+    }
+
+    .HorizonPostAnalyser3-header-button button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .HorizonPostAnalyser3-header-button p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /* Posts Section */
+    .HorizonPostAnalyser3-posts {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .HorizonPostAnalyser3-posts-post {
+
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    /* Sidebar Adjustments */
+    .HorizonPostAnalyser3-left-sidebar {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .HorizonPostAnalyser3-left-sidebar-bar {
+        width: 50%;
+    }
+
+    .HorizonPostAnalyser3-left-sidebar-title {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .HorizonPostAnalyser3-left-sidebar-text {
+        font-size: 14px;
+        width: 80%;
+    }
+
+    .Performia-container-footer-header-texte {
+        text-align: center;
+    }
+
+    .Performia-container-footer-content {
+        margin: 0 auto;
+    }
+
+    .Performia-container-footer {
+        width: 87%;
+        gap: 20px;
+        margin: auto;
+    }
+
+    .HorizonPostAnalyser3-Engagement-footer,
+    .HorizonPostAnalyser3-Audience-footer {
+        width: auto
+    }
+
+    .HorizonPostAnalyser3-Engagement-graph div {
+        width: 300px !important
+    }
+
+    /* Snapshot Section */
+    .HorizonPostAnalyser3-Snapshot-container {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .HorizonPostAnalyser3-Snapshot-right {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    .HorizonPostAnalyser3-Snapshot-right-item {
+        width: 75%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .HorizonPostAnalyser3-Comparison-right .SpiderGraph {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* Comparison Section */
+    .HorizonPostAnalyser3-Comparison-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .HorizonPostAnalyser3-Comparison-right-top {
+        left: 10px;
+        top: 10px;
+    }
+
+    /* Engagement Section */
+    .HorizonPostAnalyser3-Engagement-right {
+        width: 100%;
+    }
+
+    .HorizonPostAnalyser3-Engagement-posts {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .HorizonPostAnalyser3-Engagement-posts-post {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    /* Audience Section */
+    .HorizonPostAnalyser3-Audience-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .HorizonPostAnalyser3-Audience-graph canvas {
+        width: 100%;
+    }
+
+    /* Demographics Section */
+    .HorizonPostAnalyser3-demographic-right {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .HorizonPostAnalyser3-demographic-right-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        padding: 0;
+    }
+
+    .HorizonPostAnalyser3-demographic-card {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    /* Next Steps Section */
+    .HorizonPostAnalyser3-Next-Steps-for-Growth-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .HorizonPostAnalyser3-Next-Steps-for-Growth-container-left,
+    .HorizonPostAnalyser3-Next-Steps-for-Growth-container-right {
+        width: 100%;
+        height: auto;
+    }
+
+    .HorizonPostAnalyser3-Next-Steps-for-Growth-container-right-buttons button {
+        width: 100%;
+    }
+
+    /* Footer Section */
+    .HorizonPostAnalyser3-footer {
+        padding: 20px;
+    }
+
+    .HorizonPostAnalyser3-footer p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .HorizonPostAnalyser3-footer button {
+        width: 100%;
+        padding: 10px;
+    }
+}

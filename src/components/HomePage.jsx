@@ -280,7 +280,7 @@ const HomePage = () => {
 
                 <div className="competitor-insights-container" style={{ display: itemselected === "Competitor Insights" ? "block" : "none" }} >
 
-                    <div style={{ textAlign: "center" }}>
+                    <div style={{ textAlign: "center" }} className="Competitor-Insights">
                         <span className="track-improve-repeat">Track, Improve, </span>
                         <span className="track-improve-repeat-blue">Repeat</span>
                         <span className="track-improve-repeat">.</span>
@@ -338,7 +338,7 @@ const HomePage = () => {
 
                 <div className="audience-expansion-container" style={{ display: itemselected === "Audience Expansion" ? "block" : "none" }} >
 
-                    <div class="text-center">
+                    <div class="text-center" className="Audience-Expansion">
                         <span class="text-black">Focus on what works for </span>
                         <span class="text-blue-italic">your</span>
                         <span class="text-black"> audience.</span>
@@ -504,22 +504,18 @@ const HomePage = () => {
 
                         <div className='emetional-analysis-item ' style={{ background: "black" }}>
 
-
-
-
                             <img class="analysis-img" src="../images/balance.png" style={{ width: "84px", height: "180px", padding: "5px 0" }} />
 
                             <div>
-
-
                                 <span style={{ color: '#FAFAFA', fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 500, wordWrap: 'break-word' }}>A/B</span>
                                 <span style={{ color: '#FAFAFA', fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}> </span>
                                 <span className='testing' style={{ fontSize: 32, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>Testing</span>
-                            </div>
+                          
                             <div style={{ color: '#F4F4F4', fontSize: 16, fontFamily: 'Eloquia Display', fontWeight: 300, wordWrap: 'break-word' }}>Revolutionise how you grow.</div>
-                            <div class="button-container">
+                            </div> 
+                             <div class="button-container">
 
-                                <button class="button blue-button" style={{ width: "50%" }}>
+                                <button class="button blue-button Start-Your-First-Test" style={{ width: "50%" }}>
                                     <div class="button-text blue-text">Start Your First Test</div>
                                 </button>
 
@@ -591,28 +587,7 @@ const HomePage = () => {
 
 
             <div className="homepage-5">
-                <div className="slider-items"  >
-                    <div style={{ width: '313px', textAlign: "center" }}>
-                        <div style={{ textAlign: 'center', color: '#86868B', fontSize: 12, fontFamily: 'Lato', fontWeight: 400, wordWrap: 'break-word' }}>Engagement rate</div>
-                        <div style={{ color: '#0070FF', fontSize: 24, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>+30%</div>
-                    </div>
-                    <div style={{ width: '313px', textAlign: "center" }}>
-                        <div style={{ textAlign: 'center', color: '#86868B', fontSize: 12, fontFamily: 'Lato', fontWeight: 400, wordWrap: 'break-word' }}>Likes per Reach</div>
-                        <div style={{ color: '#0070FF', fontSize: 24, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>+14%</div>
 
-                    </div>
-                    <div style={{ width: '313px', textAlign: "center" }}>
-                        <div style={{ textAlign: 'center', color: '#86868B', fontSize: 12, fontFamily: 'Lato', fontWeight: 400, wordWrap: 'break-word' }}>Audience Reached</div>
-                        <div style={{ color: '#0070FF', fontSize: 24, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>NEW</div>
-
-                    </div>
-                    <div style={{ width: '313px', textAlign: "center" }}>
-                        <div style={{ textAlign: 'center', color: '#86868B', fontSize: 12, fontFamily: 'Lato', fontWeight: 400, wordWrap: 'break-word' }}>Non-Follower Reach</div>
-                        <div style={{ color: '#0070FF', fontSize: 24, fontFamily: 'Eloquia Display', fontWeight: 600, wordWrap: 'break-word' }}>+23%</div>
-
-                    </div>
-
-                </div>
                 <div className='button-container-4'>
                     <div style={{ width: '20%', height: '100%', padding: 10, background: 'white', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: 20, border: '1px #0070FF solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex' }}>
                         <div style={{ color: '#0070FF', fontSize: 12, fontFamily: 'Poppins', fontWeight: 400, wordWrap: 'break-word' }}>See&nbsp;Your&nbsp;Personal&nbsp;Growth&nbsp;Metrics</div>

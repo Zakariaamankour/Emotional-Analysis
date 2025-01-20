@@ -233,10 +233,16 @@
         width: 60%;
         gap: 10px;
         flex-wrap: wrap;
+        flex-direction: column-reverse;
     }
 
     .button-container .button-text {
         font-size: 11px;
+    }
+
+    .headline {
+        display: block;
+        text-align: center;
     }
 
 }
@@ -263,12 +269,29 @@
     background: linear-gradient(180deg, #E4F0F8 0%, #A6DAFF 50%, #E2EEF6 100%),
         linear-gradient(258.99deg, rgba(227, 240, 248, 0.6) 0.42%, rgba(227, 240, 248, 0.6) 92.09%),
         linear-gradient(136.47deg, rgba(0, 0, 0, 0) 27.12%, rgba(96, 222, 227, 0.18) 78.03%);
+    height: 686px;
 
+}
+
+@media(max-width:767px) {
+    .homepage-2 {
+        height: auto;
+    }
+
+    .audience-expansion-container-flex,
+    .tracker-competitor--playbook-container {
+        gap: 10px !important;
+    }
+
+    .homepage-1 .part-2 {
+        background: linear-gradient(117.96deg, #EF4C2D 0%, #CD52BC 50%, #6475F3 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }
 
 .emotional-container {
     width: 60%;
-    height: 100%;
     padding: 10px 0;
     border-radius: 20px;
     justify-content: space-evenly;
@@ -323,6 +346,9 @@
     font-weight: 500;
 }
 
+.slick-prev, .slick-next {
+    display: none !important;
+}
 
 .score-container {
     width: 91%;
@@ -336,6 +362,7 @@
     flex-direction: column;
     gap: 10px;
     position: relative;
+    text-align: left;
 }
 
 .questionicon {
@@ -462,7 +489,6 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    width: 50%;
 }
 
 .Emotional-Unlock-container-1 {
@@ -478,10 +504,17 @@
 
 .Emotional-Unlock-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin: 31px auto;
     align-items: center;
     width: 80%;
+    gap: 20px;
+}
+
+.Emotional-Unlock-container,
+.competitor-flex,
+.audience-expansion-container-flex {
+    padding: 20px 0;
 }
 
 .Emotional-Unlock-container-1-container,
@@ -535,8 +568,11 @@
     width: 50%;
 }
 
-.Emotional-Unlock {
+.Emotional-Unlock,
+.Audience-Expansion,
+.Competitor-Insights {
     padding: 25px 0;
+    text-align: center;
 }
 
 
@@ -802,7 +838,7 @@
     flex-direction: column;
     align-items: center;
     padding: 70px;
-    height: 300px;
+    height: 509px;
     justify-content: space-between;
 }
 
@@ -825,7 +861,7 @@
     align-items: center;
     justify-content: center;
     gap: 20px;
-    margin: 30px 0;
+    margin: 60px 0;
 }
 
 .button-container-4 {
@@ -940,7 +976,10 @@
     }
 
     .subheadline {
-        font-size: 22px;
+        font-size: 18px;
+        width: 80%;
+        margin: auto;
+        line-height: 25px;
     }
 
     .growth-text {
@@ -1054,6 +1093,9 @@
 
     .homepage-7-button .buttons {
         width: 40% !important;
+    }
+    .Start-Your-First-Test{
+        width: 100% !important;
     }
 }
 
@@ -1209,7 +1251,6 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
-    padding: 30px 0;
 
 }
 
@@ -1263,8 +1304,8 @@
         width: 95%;
     }
 
-    .audience-expansion-container-right{
-        width:365px !important
+    .audience-expansion-container-right {
+        width: 365px !important
     }
 }
 
@@ -1488,7 +1529,6 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-    padding: 50px 0;
 }
 
 .audience-expansion-container-left {

@@ -713,8 +713,8 @@
 }
 
 .ReflectionPostAnalysisGrowthFocus-Comparison-right canvas {
-    height:80% !important;
-    width:80% !important;
+    height: 80% !important;
+    width: 80% !important;
     background: white;
     border-radius: 50%;
     padding: 37px;
@@ -722,13 +722,198 @@
 }
 
 .ReflectionPostAnalysisGrowthFocus-Comparison-right .SpiderGraph {
-    width: 400px;
-    height: 400px;
+    width: 400px !important;
+    height: 400px !important;
     margin: 0;
 }
 
 
-.ReflectionPostAnalysisGrowthFocus-Engagement-graph canvas,.ReflectionPostAnalysisGrowthFocus-Actions-graph canvas {
+.ReflectionPostAnalysisGrowthFocus-Engagement-graph canvas,
+.ReflectionPostAnalysisGrowthFocus-Actions-graph canvas {
     width: 500px !important;
     height: 300px !important;
+}
+
+
+
+
+/* Mobile Optimization */
+@media screen and (max-width: 768px) {
+
+    /* General Adjustments */
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus {
+        width: 90%;
+        margin: auto;
+        overflow-y: hidden !important;
+        padding: 10px;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-Comparison-right canvas{
+        margin: 0;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-top {
+        width: 90%;
+        margin: auto;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-title-space,
+    .ReflectionPostAnalysisGrowthFocus-title-analysis {
+        font-size: 24px;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-title-emotional {
+        font-size: 24px;
+    }
+
+    /* Video Container */
+    .ReflectionPostAnalysisGrowthFocus-video-container {
+
+        height: auto;
+        margin: auto;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-video-container video {
+        height: auto;
+        border-radius: 10px;
+        margin: auto;
+    }
+
+    /* First Section */
+    .ReflectionPostAnalysisGrowthFocus-first-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-first-section-right {
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    /* Second Section */
+    .ReflectionPostAnalysisGrowthFocus-second-section {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-second-section-left {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-second-section-right {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-second-section-right-left {
+        flex-wrap: wrap;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-second-section-right-left-item {
+        width: 100%;
+        height: auto;
+        
+    }
+
+    /* Buttons and Focus Mode */
+    .ReflectionPostAnalysisGrowthFocus-button {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-focus-mode {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-second-section-right-footer button {
+        width: 100%;
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    /* Charts and Graphs */
+    .ReflectionPostAnalysisGrowthFocus-second-section-right-spider canvas,
+    .ReflectionPostAnalysisGrowthFocus-Engagement-graph canvas,
+    .ReflectionPostAnalysisGrowthFocus-Actions-graph canvas {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-Comparison-right {
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+
+    /* Engagement Section */
+    .HorizonPostAnalyser3-Engagement-right {
+        width: 100%;
+      
+        height: auto;
+    }
+
+    .HorizonPostAnalyser3-Engagement-posts {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .HorizonPostAnalyser3-Engagement-posts-post {
+        width: 100%;
+        padding: 10px;
+    }
+
+    /* Audience and Demographics */
+    .ReflectionPostAnalysisGrowthFocus-Engagement-graph,
+    .ReflectionPostAnalysisGrowthFocus-Demographic-graph {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Next Steps for Growth */
+    .HorizonPostAnalyser3-Next-Steps-for-Growth-container {
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+
+    .HorizonPostAnalyser3-Next-Steps-for-Growth-container-left,
+    .HorizonPostAnalyser3-Next-Steps-for-Growth-container-right {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .HorizonPostAnalyser3-Next-Steps-for-Growth-container-right-buttons button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* Footer */
+    .HorizonPostAnalyser3-footer {
+        padding: 10px;
+    }
+
+    .HorizonPostAnalyser3-footer button {
+        width: 100%;
+        padding: 12px;
+    }
+
+
+
+    .ReflectionPostAnalysisGrowthFocus-Demographic-graph div {
+        flex-wrap: wrap;
+    }
+
+    .ReflectionPostAnalysisGrowthFocus-fourth-section-rigth-left-item {
+        width: 90%;
+    }
 }

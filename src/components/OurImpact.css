@@ -114,3 +114,57 @@
     width: 80%;
     margin: auto;
 }
+
+
+/* Mobile Optimization Styles */
+
+@media (max-width: 768px) {
+    .OurImpact {
+        width: 95%;
+        margin: auto;
+    }
+
+    .OurImpact-header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px; 
+    }
+
+    .OurImpact-header-left {
+        margin-bottom: 15px;
+    }
+
+    .OurImpact-header-left-title {
+        font-size: 24px;
+    }
+
+    .OurImpact-header-left-text {
+        font-size: 16px;
+        width: 90%;
+        line-height: 20px;
+    }
+
+    .OurImpact-header-right {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .OurImpact-header-right-button-light,
+    .OurImpact-header-right-button-blue {
+        width: 100px;
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    .OurImpact-main {
+        flex-direction: column;
+        align-items: center;
+        height: 500px;
+    }
+
+    .OurImpact-main-right {
+        width: 100%;
+        height: 100%;
+        margin: 20px 0;
+    }
+}

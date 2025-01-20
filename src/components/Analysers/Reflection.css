@@ -208,14 +208,15 @@
     align-items: center;
 }
 
-.Reflection-container-posts-post:hover .Reflection-container-posts{
-   width: 100%;
-   gap: 5px;
+.Reflection-container-posts-post:hover .Reflection-container-posts {
+    width: 100%;
+    gap: 5px;
 }
-.Reflection-container-posts-post:hover{
+
+.Reflection-container-posts-post:hover {
     width: 276px;
     height: 465px;
- }
+}
 
 .Reflection-container-plder-post-button {
     width: 237px;
@@ -276,3 +277,22 @@
 }
 
 
+
+
+
+
+@media(max-width:767px) {
+    .Reflection-container-picture {
+        width: 100px;
+        height: 100px;
+    }
+
+    .Reflection {
+        width: 90%;
+    }
+
+    .Reflection-container-text {
+        width: 80%;
+        margin: auto;
+    }
+}
