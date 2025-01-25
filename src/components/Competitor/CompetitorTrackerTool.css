@@ -1,3 +1,20 @@
+@font-face {
+    font-family: 'Eloquia Display';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaDisplay-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    /* Extra Bold */
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Eloquia Display';
+    src: url('../../../public/assets/fonts/Typekiln\ -\ EloquiaText-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    /* Extra Light */
+    font-style: normal;
+}
+
+
 .CompetitorTrackerTool1 {
     text-align: center;
     display: flex;
@@ -33,7 +50,7 @@
     color: #242424;
     font-size: 32px;
     font-family: Eloquia Display;
-    font-weight: 400;
+    font-weight: 600;
     word-wrap: break-word;
     background: linear-gradient(117.96deg, #000080 0%, #5B5858 100%);
     -webkit-background-clip: text;

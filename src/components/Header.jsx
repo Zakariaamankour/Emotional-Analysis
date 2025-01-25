@@ -30,16 +30,16 @@ const Header = () => {
                 {
                     cat: "Explore Competitor Tools",
                     items: [
-                        { name: "Tracker", link: "/tracker" },
-                        { name: "Playbook", link: "/playbook" },
-                        { name: "Comparison", link: "/comparison" },
+                        { name: "Tracker", link: "/competitor-tracker-tool-1" },
+                        { name: "Playbook", link: "/competitor-playbook-step-1" },
+                        { name: "Comparison", link: "/competitor-comparaison-step-1" },
                         { name: "Selector", link: "/selector" }
                     ]
                 },
                 {
                     cat: "Explore Feedback Tools",
                     items: [
-                        { name: "Horizon", link: "/horizon" },
+                        { name: "Horizon", link: "/horizon-post-analyser-start" },
                         { name: "Reflection", link: "/reflection" }
                     ]
                 }

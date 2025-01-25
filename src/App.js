@@ -42,7 +42,9 @@ import AudienceStart from './components/Audience/AudienceStart';
 import Audience from './components/Audience/Audience';
 import PrivacyPolicy from './components/Policy/PrivacyPolicy';
 import TermsConditions from './components/Policy/TermsConditions';
-
+import CompetitorComparaisonStep1 from './components/Competitor/CompetitorComparaisonStep1';
+import CompetitorPlaybookStep1 from './components/Competitor/CompetitorPlaybookStep1';
+ 
 
 function App() {
 
@@ -98,6 +100,8 @@ function App() {
           <Route path="/audience" element={<Audience/>} />
           <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
           <Route path="/terms-conditions" element={<TermsConditions/>} />
+          <Route path="/competitor-comparaison-step-1" element={<CompetitorComparaisonStep1/>} />
+          <Route path="/competitor-playbook-step-1" element={<CompetitorPlaybookStep1/>} />
 
         </Routes>
 
